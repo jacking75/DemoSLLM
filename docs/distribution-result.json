@@ -1,0 +1,29 @@
+{
+    "package":  "C:\\github_dev\\DemoSLLM\\dist\\LocalMindStudio-win-x64-20261001-distribution",
+    "archive":  "C:\\github_dev\\DemoSLLM\\dist\\LocalMindStudio-win-x64-20261001-distribution.zip",
+    "archiveBytes":  734683236,
+    "manifestFiles":  109,
+    "modelMode":  "download",
+    "vcRuntime":  "app-local",
+    "nativeBinariesChecked":  44,
+    "cleanPcExecution":  "미검증",
+    "zipSha256":  "a71a04e2666f376abe151b636597ae091f713a83ef71a38fc3dceafc6228f1fd",
+    "expandedBytes":  1256629698,
+    "checkedAt":  "2026-10-01T13:06:22.3179106+09:00",
+    "releaseBuildWarnings":  0,
+    "releaseBuildErrors":  0,
+    "legacyVerifierTestsPassed":  7,
+    "distributionTestsPassed":  20,
+    "existingPackagePreservationPassed":  true,
+    "extractedPackageVerificationPassed":  true,
+    "extractionPathContainsKoreanAndSpaces":  true,
+    "manualBrowserChecksPassed":  15,
+    "guideLinksChecked":  2,
+    "notPerformed":  [
+                         "clean PC execution",
+                         "GPU inference",
+                         "model downloads",
+                         "new runtime ZIP downloads; verified existing pinned ZIP cache reused",
+                         "full bundled-model ZIP creation"
+                     ]
+}

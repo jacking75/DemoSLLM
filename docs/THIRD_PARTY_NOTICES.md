@@ -8,6 +8,7 @@
 | LLVM OpenMP | 고정 llama.cpp 런타임의 LICENSE-LLVM-OpenMP | 원문을 `third_party/licenses/LLVM-OpenMP-LICENSE.txt`에 보존한다. |
 | NVIDIA CUDA 라이브러리 | 고정 CUDA 12.4 ZIP의 cudart/cublas/cublasLt | NVIDIA CUDA 12.4 EULA 포함 |
 | .NET 자체 포함 런타임 | 게시본의 runtimeconfig/deps와 고정 게시 결과 | MIT·ThirdPartyNotices 포함 |
+| Visual C++ x64 CRT | 배포 PC의 Visual Studio Redist/MSVC x64 CRT | app-local DLL 동봉, 버전·SHA-256과 `Visual-Cpp-Runtime-NOTICE.md` 포함 |
 | CommunityToolkit.Mvvm | 8.4.2 | NuGet의 MIT·ThirdPartyNotices 포함 |
 | DocumentFormat.OpenXml | 2.16.0 | MIT 원문 포함 |
 | Microsoft.Data.Sqlite/Core | 10.0.11 | MIT, .NET 고지와 NuGet 메타데이터 포함 |

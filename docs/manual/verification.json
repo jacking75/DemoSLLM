@@ -1,10 +1,10 @@
 {
-    "checkedAt":  "2026-10-01T12:23:06.7108998+09:00",
-    "sourceCommit":  "3f1292073cd78e09f6f7de31571cf989090cef28",
+    "checkedAt":  "2026-10-01T13:02:18.0444675+09:00",
+    "sourceCommit":  "f0c77858d9404a18f1fbdf0b1c3908c421fb9508",
     "pdfPages":  24,
     "pdfBookmarks":  24,
     "pdfTocLinks":  22,
-    "pdfVisualReview":  "all 24 latest rendered pages reviewed; no clipping or missing Korean glyphs observed",
+    "pdfVisualReview":  "all 24 rendered pages reviewed; revised pages 3, 4, 7, 22 reviewed at full size; no clipping or missing Korean glyphs observed",
     "screenshotsCaptured":  21,
     "htmlScreenshotPlacements":  15,
     "htmlSelfContained":  true,
@@ -27,8 +27,8 @@
                           "no JavaScript page errors"
                       ],
     "modelDownloadSizeBytes":  4161905792,
-    "htmlSha256":  "84683a0631cc734f72fdb82de482cbd246ce727507d904e2448792323a4e66ee",
-    "pdfSha256":  "1fdb1dd5428d4bf4b216511613f2be5125e33c9e888d74dd3e193f8373b824cb",
+    "htmlSha256":  "0e4f37a6fd2dd394244c3d47c957026664534b114ed821f6c7b4bc189b119a73",
+    "pdfSha256":  "d6c7cc1863b900b578ec4c8215654f5e6048431c9d61e82c4bab547ee4b88fb2",
     "notPerformed":  [
                          "actual model downloads",
                          "new model inference",
@@ -37,5 +37,6 @@
                          "end-user walkthrough on another PC",
                          "double-click file protocol via browser automation"
                      ],
-    "screenshotProvenance":  "capture-manifest.json under images; replay responses and synthetic popup inputs identified in captions"
+    "screenshotProvenance":  "capture-manifest.json under images; replay responses and synthetic popup inputs identified in captions",
+    "distributionUpdate":  "prerequisites, full ZIP extraction, startup guide and bundled CUDA/Visual C++ DLL guidance updated"
 }

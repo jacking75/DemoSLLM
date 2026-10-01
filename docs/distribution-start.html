@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LocalMind Studio — 처음 읽어 주세요</title>
+<style>body{font:17px/1.75 'Malgun Gothic',sans-serif;color:#20354a;background:#edf2f7;margin:0}main{max-width:850px;margin:35px auto;background:white;padding:35px;border-radius:16px}h1{line-height:1.3}h2{font-size:23px;margin-top:30px}a{color:#0756aa}li{margin:12px 0}.note{padding:15px;background:#edf5ff;border-left:4px solid #3d7abe}code{background:#eef2f5;padding:2px 5px}footer{color:#516071}@media(max-width:600px){main{margin:0;padding:22px;border-radius:0}}</style>
+<main><h1>LocalMind Studio<br>처음 읽어 주세요</h1>
+<p>이 폴더를 통째로 보관하면 된다. 개발 도구나 명령어를 사용할 필요가 없다. 먼저 아래 순서대로 준비한 뒤 실제 화면이 담긴 <a href="사용자%20매뉴얼.html">사용자 매뉴얼</a>을 따라 사용한다. <a href="사용자%20매뉴얼.pdf">PDF 매뉴얼</a>은 인쇄할 때 사용한다.</p>
+<h2>1. PC를 준비한다</h2>
+<ul><li>Windows 11 64비트와 NVIDIA GPU·드라이버가 필요하다. 현재 기본 구성은 그래픽 메모리 8GB를 기준으로 한다.</li><li>이 배포본에는 .NET, CUDA 실행 라이브러리, Visual C++ 실행 DLL이 들어 있다. .NET SDK·CUDA Toolkit·Visual C++ 재배포 패키지를 별도로 설치할 필요가 없도록 구성했다. NVIDIA 드라이버는 PC에 설치돼 있어야 한다.</li><li>모델 3개는 약 4.16GB다. 배포 폴더와 모델을 둘 공간을 확보한다. 모델이 없는 배포본은 처음 다운로드할 인터넷이 필요하다.</li></ul>
+<h2>2. 폴더 전체를 압축 해제한다</h2>
+<ol><li>받은 ZIP을 오른쪽 클릭하고 “모두 압축 풀기”를 선택한다. ZIP 안에서 바로 실행하지 않는다.</li><li>내 문서 같은 쓰기 가능한 위치에 푼다. Program Files나 읽기 전용 폴더는 피한다.</li><li><code>LocalMindStudio.exe</code>와 <code>assets</code>, <code>tools</code>, <code>third_party</code> 폴더를 함께 보관한다. 모델을 준비하면 <code>models</code> 폴더도 생긴다. EXE 하나만 옮기지 않는다.</li></ol>
+<h2>3. 모델을 준비하고 시작한다</h2>
+<ol><li><code>LocalMindStudio.exe</code>를 더블클릭한다.</li><li>오른쪽 모델 준비 영역에서 “없는 모델 다운로드”를 누른다. 모델이 이미 동봉돼 있으면 “모델 SHA-256 검증”을 누른다. 완료될 때까지 기다린다.</li><li>“로컬 서버 시작”을 누른다. 준비 완료 안내가 나오면 채팅이나 이미지·문서 기능을 사용한다. 상세 순서와 화면은 사용자 매뉴얼 5~7쪽에 있다.</li><li>끝낼 때는 창의 X 또는 트레이 메뉴의 “종료”를 사용한다.</li></ol>
+<div class="note">모델 없이 화면부터 익히려면 “안전 재생”을 체크하고 “7분 데모 시작”을 누른다. 저장된 과거 예시를 보여 주는 모드이며 내 질문이나 문서를 새로 처리하지 않는다.</div>
+<h2>4. 문제가 생기면 확인한다</h2>
+<ul><li>다운로드가 끊기면 인터넷과 디스크 공간을 확인한 뒤 같은 버튼으로 재시도한다. 부분 파일은 이어받기에 사용할 수 있다.</li><li>DLL 누락 오류가 나오면 EXE만 복사했거나 압축 해제가 빠졌는지 확인한다. 인터넷에서 개별 DLL을 받지 말고 담당자에게 전체 배포본을 요청한다.</li><li>서버가 시작되지 않으면 NVIDIA GPU·드라이버와 모델 검증 상태를 확인하고, 오류 문구를 담당자에게 전달한다.</li><li>사용자 기록은 프로그램 폴더 바깥의 로컬 앱 데이터에 저장한다. 백업·초기화·기능별 문제 해결은 매뉴얼 21~24쪽에서 확인한다.</li></ul>
+<footer>이 배포본의 파일 무결성과 정적 DLL 구성은 검사할 수 있으나 새 PC에서의 실제 실행·GPU 추론은 별도 확인이 필요하다. 업데이트는 프로그램을 완전히 종료하고 새 ZIP을 별도 폴더에 압축 해제한다. 이전 모델을 같은 상대 경로로 복사한 뒤 앱의 파일 검증을 실행한다.</footer>
+</main></html>

@@ -20,7 +20,7 @@ HTML 파일을 PC에 저장하고 더블클릭하면 브라우저에서 연다. 
 | 최초 복원 | NuGet 패키지를 확보할 인터넷 또는 로컬 패키지 캐시 |
 | 실제 추론·GUI 테스트 | 고정 런타임과 모델 파일, 연결되고 잠금 해제된 사용자 데스크톱 |
 
-오프라인 배포본은 .NET 및 Windows Desktop 런타임을 자체 포함하므로 실행 PC에 SDK나 .NET을 별도로 설치할 필요가 없다. NVIDIA 드라이버는 PC에 설치돼 있어야 한다. 안전 재생 GUI 검사는 모델 추론을 수행하지 않지만 현재 앱의 실행 환경은 Windows이다.
+새 배포 도구는 .NET·Windows Desktop 런타임을 자체 포함한 EXE와 CUDA 실행 DLL·Visual C++ x64 CRT DLL을 함께 묶는다. 실행 PC에 .NET·CUDA Toolkit·Visual C++ 재배포 패키지를 별도로 설치할 필요가 없도록 구성했다. NVIDIA GPU·호환 드라이버는 PC에 준비돼 있어야 한다. 새 PC의 실제 실행·GPU 추론은 별도 확인이 필요하다. 자세한 준비·전달·업데이트 방법은 [배포 안내](docs/distribution.md)에 있다.
 
 기본 구성은 Gemma 4 E2B Q4_0·컨텍스트 4096이며 임베딩은 CPU·컨텍스트 2048을 사용한다. 파일 경로는 다음과 같다.
 
@@ -94,21 +94,21 @@ dotnet build .\src\App.Wpf\App.Wpf.csproj -c Release
 & .\bin\LocalMindStudio.exe
 ```
 
-실제 추론에는 외부 모델·추론 서버·샘플이 필요하다. 다른 PC에는 아래 오프라인 패키지로 함께 배치한다.
+실제 추론에는 외부 모델·추론 서버·샘플이 필요하다. 다른 PC에는 아래 배포 ZIP으로 함께 배치한다.
 
-### 모델 포함 오프라인 패키지 만들기
+### 사용자에게 전달할 배포본 만들기
 
 ```powershell
-# Release 게시와 파일 검증 후 새 이름의 폴더·ZIP을 생성한다.
-& .\tools\New-OfflinePackage.ps1
+# 기본: 고정 런타임 ZIP 확보 → Release 빌드 → 모델 제외 ZIP 생성
+& .\tools\New-DistributionPackage.ps1 -DownloadRuntime
 
-# 루트 bin의 현재 빌드 결과를 그대로 포장할 때만 사용한다.
-& .\tools\New-OfflinePackage.ps1 -SkipBuild
+# 인터넷 없는 PC: 프로젝트 루트에 모델 3개를 준비한 후 동봉
+& .\tools\New-DistributionPackage.ps1 -DownloadRuntime -IncludeModels
 ```
 
-패키지 생성에는 위 모델 3개 외에 `third_party/downloads/`의 고정 llama.cpp·CUDA 원본 ZIP 2개와 `third_party/licenses/`의 고지 파일이 필요하다. 스크립트는 원본의 크기와 SHA-256을 검사하며 필요한 파일을 자동 다운로드하지 않는다. 결과는 `dist/LocalMindStudio-offline-win-x64-<시각>/`와 같은 이름의 ZIP·`.zip.sha256`이다. 기존 이름의 패키지를 덮어쓰지 않는다.
+기본 배포본은 모델 없이 만들 수 있다. `-DownloadRuntime`은 없는 고정 llama.cpp·CUDA ZIP만 다운로드한다. ZIP 크기·SHA-256과 x64 네이티브 DLL 의존성을 검사하며, Visual Studio의 Redist/MSVC x64 CRT를 자동으로 찾는다. 없는 경우 `-VcRuntimeDirectory`를 지정한다. `-RuntimeArchiveDirectory`로 기존 ZIP 캐시도 재사용할 수 있다. 결과는 `dist/LocalMindStudio-win-x64-<시각>/`와 같은 이름의 ZIP·`.zip.sha256`이다. 기존 배포본은 덮어쓰지 않는다.
 
-4단계에서 생성·검증한 `dist/LocalMindStudio-offline-win-x64-stage4-v2.zip`은 단일 파일 빌드 변경 이전의 로컬 배포본이며 Git에는 포함하지 않는다. 현재 구성을 배포하려면 패키지 생성 명령을 다시 실행한다. 모델 포함 패키지는 수 GB 크기이므로 압축 해제 공간을 별도로 확보한다. 압축을 풀고 최상위 `LocalMindStudio.exe`를 실행하며 데이터 하위 폴더를 함께 유지한다. 외부 배포 전에는 [라이선스 고지](docs/THIRD_PARTY_NOTICES.md)와 명세의 법무 검토 조건을 확인해야 한다.
+사용자에게 ZIP을 전달한다. 모두 압축 해제하고 `처음 읽어 주세요.html`을 연 뒤 `LocalMindStudio.exe`를 실행한다. HTML·PDF 사용자 매뉴얼도 들어 있다. 모델이 없으면 앱에서 다운로드하고, 파일 검증 후 로컬 서버를 시작한다. EXE와 데이터 하위 폴더는 함께 유지한다. 기존 `New-OfflinePackage.ps1`은 모델 포함 옵션으로 계속 사용할 수 있다. 전달 전 검사와 업데이트 명령은 [배포 안내](docs/distribution.md)에 있다. 외부 배포 전에는 [라이선스 고지](docs/THIRD_PARTY_NOTICES.md)와 명세의 법무 검토 조건을 확인해야 한다.
 
 ## 사용 방법
 
@@ -189,9 +189,12 @@ dotnet run --project .\src\Diagnostics\Diagnostics.csproj -c Release --no-build 
 
 # 패키지 변조·누락·외부 경로·중복·추가 파일 거부 검사
 & .\tools\Test-OfflinePackageVerifier.ps1
+
+# 새 배포 방식·다운로드 상태·동봉 모델·x64 CRT 검사와 기존 7개 회귀
+& .\tools\Test-DistributionPackage.ps1
 ```
 
-2026-10-01 기록은 각각 16/16, 40/40, 7/7이다. 이 검사는 실제 모델의 답변 품질이나 GPU 성능을 측정하지 않는다. 결과는 `docs/stage4-runs/`, `docs/stage2-runs/`의 해당 실행 폴더에 저장한다.
+2026-10-01 기록은 기존 검사 각각 16/16, 40/40, 7/7이며 새 배포 회귀는 20/20이다. 이 검사는 실제 모델의 답변 품질이나 GPU 성능을 측정하지 않는다. 결과는 `docs/stage4-runs/`, `docs/stage2-runs/`, `docs/distribution-runs/`의 해당 실행 폴더에 저장한다. 새 배포 ZIP의 검사 범위는 [배포 안내](docs/distribution.md)에 기록한다.
 
 ### 실제 모델·서버 검사
 
