@@ -1,0 +1,1115 @@
+{
+  "candidate": "google-qat",
+  "results": [
+    {
+      "id": "text",
+      "transport_ok": true,
+      "response": {
+        "content": "로컬 AI는 민감한 사내 정보를 외부로 전송할 필요가 없어 **데이터 유출 위험 없이 보안을 유지하면서 AI의 이점을 활용할 수 있다**는 점이 가장 큰 장점입니다.",
+        "ttft_seconds": 0.14724049999858835,
+        "first_any_token_seconds": 0.14724019999994198,
+        "elapsed_seconds": 0.8188755999999557,
+        "tokens_per_second": 69.9883849063347,
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 31,
+          "prompt_ms": 132.669,
+          "prompt_per_token_ms": 4.279645161290323,
+          "prompt_per_second": 233.66423203611993,
+          "predicted_n": 47,
+          "predicted_ms": 671.54,
+          "predicted_per_token_ms": 14.598695652173912,
+          "predicted_per_second": 68.4992703338595
+        },
+        "usage": {
+          "completion_tokens": 47,
+          "prompt_tokens": 31,
+          "total_tokens": 78,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "events": [
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "role": "assistant",
+                  "content": null
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": "로"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": "컬"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": " AI"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": "는"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": " 민"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": "감"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": "한"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": " 사"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": "내"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": " 정보를"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": " 외부"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": "로"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": " 전"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": "송"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": "할"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": " 필요"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": "가"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": " 없어"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": " **"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": "데이터"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": " 유"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": "출"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": " 위험"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": " 없이"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": " 보안"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": "을"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": " 유지"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": "하면서"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": " AI"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": "의"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": " 이"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": "점을"
+                }
+              }
+            ],
+            "created": 1790753533,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": " 활용"
+                }
+              }
+            ],
+            "created": 1790753534,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": "할"
+                }
+              }
+            ],
+            "created": 1790753534,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": " 수"
+                }
+              }
+            ],
+            "created": 1790753534,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": " 있다"
+                }
+              }
+            ],
+            "created": 1790753534,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": "**"
+                }
+              }
+            ],
+            "created": 1790753534,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": "는"
+                }
+              }
+            ],
+            "created": 1790753534,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": " 점"
+                }
+              }
+            ],
+            "created": 1790753534,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": "이"
+                }
+              }
+            ],
+            "created": 1790753534,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": " 가장"
+                }
+              }
+            ],
+            "created": 1790753534,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": " 큰"
+                }
+              }
+            ],
+            "created": 1790753534,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": " 장"
+                }
+              }
+            ],
+            "created": 1790753534,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": "점"
+                }
+              }
+            ],
+            "created": 1790753534,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": "입니다"
+                }
+              }
+            ],
+            "created": 1790753534,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": null,
+                "index": 0,
+                "delta": {
+                  "content": "."
+                }
+              }
+            ],
+            "created": 1790753534,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [
+              {
+                "finish_reason": "stop",
+                "index": 0,
+                "delta": {}
+              }
+            ],
+            "created": 1790753534,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk"
+          },
+          {
+            "choices": [],
+            "created": 1790753534,
+            "id": "chatcmpl-P50BbUqoPJ4ECBTnu4rWvFw6ruCXadE2",
+            "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+            "system_fingerprint": "b11146-7fe450e19",
+            "object": "chat.completion.chunk",
+            "usage": {
+              "completion_tokens": 47,
+              "prompt_tokens": 31,
+              "total_tokens": 78,
+              "prompt_tokens_details": {
+                "cached_tokens": 0
+              }
+            },
+            "timings": {
+              "cache_n": 0,
+              "prompt_n": 31,
+              "prompt_ms": 132.669,
+              "prompt_per_token_ms": 4.279645161290323,
+              "prompt_per_second": 233.66423203611993,
+              "predicted_n": 47,
+              "predicted_ms": 671.54,
+              "predicted_per_token_ms": 14.598695652173912,
+              "predicted_per_second": 68.4992703338595
+            }
+          }
+        ],
+        "thinking_requested": false,
+        "reasoning_observed": false,
+        "server_tokens_per_second": 69.9883849063347,
+        "estimated_tokens_per_second": 56.17458866768345,
+        "retokenized_output_tokens": 46,
+        "estimate_basis": "visible_content_tokens / request_to_stream_end_seconds",
+        "estimate_label": "재토큰화 추정치 (첫 토큰 대기 포함)",
+        "rate_source": "server"
+      },
+      "elapsed_seconds": 0.8206187000014324
+    },
+    {
+      "id": "image-receipt-1",
+      "transport_ok": true,
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "9000"
+            }
+          }
+        ],
+        "created": 1790753534,
+        "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+        "system_fingerprint": "b11146-7fe450e19",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 5,
+          "prompt_tokens": 235,
+          "total_tokens": 240,
+          "prompt_tokens_details": {
+            "cached_tokens": 1
+          }
+        },
+        "id": "chatcmpl-o0iUxKfWR3dHTlRNcCagjxopMlwazhkX",
+        "timings": {
+          "cache_n": 1,
+          "prompt_n": 234,
+          "prompt_ms": 259.939,
+          "prompt_per_token_ms": 1.1108504273504274,
+          "prompt_per_second": 900.2112033977202,
+          "predicted_n": 5,
+          "predicted_ms": 63.111,
+          "predicted_per_token_ms": 15.77775,
+          "predicted_per_second": 63.380393275340275
+        },
+        "thinking_requested": false,
+        "reasoning_observed": false
+      },
+      "elapsed_seconds": 0.3425065999999788
+    },
+    {
+      "id": "image-table-2",
+      "transport_ok": true,
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "```json\n{\n  \"Sales\": {\n    \"January\": 120,\n    \"February\": 150\n  },\n  \"Support\": {\n    \"January\": 80,\n    \"February\": 90\n  }\n}\n```"
+            }
+          }
+        ],
+        "created": 1790753535,
+        "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+        "system_fingerprint": "b11146-7fe450e19",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 63,
+          "prompt_tokens": 239,
+          "total_tokens": 302,
+          "prompt_tokens_details": {
+            "cached_tokens": 1
+          }
+        },
+        "id": "chatcmpl-2htdMSmXC2gsXd1NspzsthdpugpBUkFc",
+        "timings": {
+          "cache_n": 1,
+          "prompt_n": 238,
+          "prompt_ms": 181.002,
+          "prompt_per_token_ms": 0.7605126050420169,
+          "prompt_per_second": 1314.9025977613505,
+          "predicted_n": 63,
+          "predicted_ms": 896.698,
+          "predicted_per_token_ms": 14.462870967741935,
+          "predicted_per_second": 69.14256527838805
+        },
+        "thinking_requested": false,
+        "reasoning_observed": false
+      },
+      "elapsed_seconds": 1.1019207999997889
+    },
+    {
+      "id": "image-error-3",
+      "transport_ok": true,
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "DEMO APPLICATION ERROR: Connection refused, Target: 127.0.0.1:8080\n로컬 서비스가 실행되고 있지 않습니다.\n서비스가 실행 중인지 확인하거나, 포트 번호를 변경하여 시도하십시오."
+            }
+          }
+        ],
+        "created": 1790753536,
+        "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+        "system_fingerprint": "b11146-7fe450e19",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 55,
+          "prompt_tokens": 303,
+          "total_tokens": 358,
+          "prompt_tokens_details": {
+            "cached_tokens": 1
+          }
+        },
+        "id": "chatcmpl-uAZ2cK83LMvVAHLznPA0Yulxs07pvGtz",
+        "timings": {
+          "cache_n": 1,
+          "prompt_n": 302,
+          "prompt_ms": 185.714,
+          "prompt_per_token_ms": 0.6149470198675496,
+          "prompt_per_second": 1626.1563479328431,
+          "predicted_n": 55,
+          "predicted_ms": 779.926,
+          "predicted_per_token_ms": 14.443074074074074,
+          "predicted_per_second": 69.23733790128807
+        },
+        "thinking_requested": false,
+        "reasoning_observed": false
+      },
+      "elapsed_seconds": 0.9891877999998542
+    },
+    {
+      "id": "image-error-4",
+      "transport_ok": true,
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "DEMO APPLICATION ERROR: Connection refused, Target: 127.0.0.1:8080\n로컬 서비스가 실행되고 있지 않습니다.\n서비스가 실행 중인지 확인하거나, 해당 포트에서 서비스를 시작하세요."
+            }
+          }
+        ],
+        "created": 1790753537,
+        "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+        "system_fingerprint": "b11146-7fe450e19",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 53,
+          "prompt_tokens": 303,
+          "total_tokens": 356,
+          "prompt_tokens_details": {
+            "cached_tokens": 298
+          }
+        },
+        "id": "chatcmpl-09HMtHVHWtvxLvo6WZ8FngizAaskdlrh",
+        "timings": {
+          "cache_n": 298,
+          "prompt_n": 5,
+          "prompt_ms": 45.029,
+          "prompt_per_token_ms": 9.0058,
+          "prompt_per_second": 111.03955228852516,
+          "predicted_n": 53,
+          "predicted_ms": 749.238,
+          "predicted_per_token_ms": 14.408423076923079,
+          "predicted_per_second": 69.40384764253814
+        },
+        "thinking_requested": false,
+        "reasoning_observed": false
+      },
+      "elapsed_seconds": 0.8103307999990648
+    },
+    {
+      "id": "image-error-5",
+      "transport_ok": true,
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "DEMO APPLICATION ERROR: Connection refused, Target: 127.0.0.1:8080\n로컬 서비스가 실행되고 있지 않습니다.\n서비스가 실행 중인지 확인하거나, 해당 포트에서 서비스를 시작하세요."
+            }
+          }
+        ],
+        "created": 1790753538,
+        "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+        "system_fingerprint": "b11146-7fe450e19",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 53,
+          "prompt_tokens": 303,
+          "total_tokens": 356,
+          "prompt_tokens_details": {
+            "cached_tokens": 298
+          }
+        },
+        "id": "chatcmpl-j4RG77QhqGEytVWVb6jWne2XtVte0G71",
+        "timings": {
+          "cache_n": 298,
+          "prompt_n": 5,
+          "prompt_ms": 45.337,
+          "prompt_per_token_ms": 9.067400000000001,
+          "prompt_per_second": 110.28519752078876,
+          "predicted_n": 53,
+          "predicted_ms": 755.319,
+          "predicted_per_token_ms": 14.525365384615384,
+          "predicted_per_second": 68.8450839976222
+        },
+        "thinking_requested": false,
+        "reasoning_observed": false
+      },
+      "elapsed_seconds": 0.8231388999993214
+    },
+    {
+      "id": "image-long",
+      "transport_ok": true,
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "9000"
+            }
+          }
+        ],
+        "created": 1790753539,
+        "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+        "system_fingerprint": "b11146-7fe450e19",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 5,
+          "prompt_tokens": 4735,
+          "total_tokens": 4740,
+          "prompt_tokens_details": {
+            "cached_tokens": 1
+          }
+        },
+        "id": "chatcmpl-Mc0J2atqndTCIxbcEiDLqmZNpqYIttiA",
+        "timings": {
+          "cache_n": 1,
+          "prompt_n": 4734,
+          "prompt_ms": 1356.374,
+          "prompt_per_token_ms": 0.28651753274186736,
+          "prompt_per_second": 3490.187809556951,
+          "predicted_n": 5,
+          "predicted_ms": 67.799,
+          "predicted_per_token_ms": 16.94975,
+          "predicted_per_second": 58.9979203233086
+        },
+        "thinking_requested": false,
+        "reasoning_observed": false
+      },
+      "elapsed_seconds": 1.4785902000003261
+    }
+  ],
+  "gate_bytes": 7516192768,
+  "context_setting": 8192,
+  "error_prompt": "이미지의 오류를 한국어로 정확히 3줄로 답하라. 첫 줄은 오류 메시지와 대상 주소, 둘째 줄은 원인, 셋째 줄은 실행 가능한 조치 2개이다. 인사, 서론, 반복 설명은 쓰지 마라. 화면에 없는 사실은 단정하지 마라. 전체 200자 이내로 답하라.",
+  "quality_review": "미확인",
+  "source_runs": [
+    "20260930-160024-bc5c95",
+    "20260930-160647-audio-82d91b"
+  ],
+  "baseline": {
+    "total": 8585740288,
+    "used": 2391535616,
+    "free": 6194204672
+  },
+  "sampled_peak_bytes": 6910005248,
+  "nvml_errors": [],
+  "memory_pass": true,
+  "transport_pass": true
+}

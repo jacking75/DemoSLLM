@@ -1,0 +1,42 @@
+{
+  "id": "korean-03",
+  "transport_ok": true,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "**[핵심 요약]**\n\n*   **김 대리:** 금요일까지 견적서 작성\n*   **이 과장:** 다음 주 월요일에 견적서 검토",
+          "reasoning_content": "*   **Analyze the Request:** The user wants a summary of the provided meeting notes.\n    *   Input: \"김 대리는 금요일까지 견적서를 작성한다. 이 과장은 다음 월요일에 검토한다.\" (Kim will write the estimate by Friday. Lee will review it next Monday.)\n    *   Goal: Summarize this clearly.\n\n    *   **Identify Key Elements:**\n        *   Person 1: 김 대리 (Kim)\n        *   Task 1: 견적서 작성 (Write estimate)\n        *   Deadline 1: 금요일 (Friday)\n        *   Person 2: 이 과장 (Lee)\n        *   Task 2: 검토 (Review)\n        *   Timeline 2: 다음 월요일 (Next Monday)\n\n*   **Draft the Summary (Korean):** Focus on the actions and deadlines.\n    *   *Draft 1 (Direct):* 김 대리는 금요일에 견적서를 만들고, 이 과장은 다음 주 월요일에 검토한다. (Kim creates the estimate on Friday, and Lee reviews it next week Monday.)\n\n*   **Refine/Polish (Professional Tone):** Make it suitable for a formal summary.\n    *   *Option 1 (Concise):* 견적서 작성(김 대리)은 금요일까지, 검토(이 과장)는 다음 주 월요일로 진행한다.\n    *   *Option 2 (Bullet points/Action items):*\n\n        *   김 대리: 견적서 작성 (마감: 금요일)\n        *   이 과장: 검토 (마감: 다음 주 월요일)\n\n*   **Select the best output:** Provide a clear, concise, and actionable summary. (The bullet points or a highly condensed sentence works best)."
+        }
+      }
+    ],
+    "created": 1790750562,
+    "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+    "system_fingerprint": "b11146-7fe450e19",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 434,
+      "prompt_tokens": 46,
+      "total_tokens": 480,
+      "prompt_tokens_details": {
+        "cached_tokens": 7
+      }
+    },
+    "id": "chatcmpl-xAFqyiHHRfnVY1r9Kb2Y7usFTnDQsZZg",
+    "timings": {
+      "cache_n": 7,
+      "prompt_n": 39,
+      "prompt_ms": 63.46,
+      "prompt_per_token_ms": 1.6271794871794871,
+      "prompt_per_second": 614.5603529782541,
+      "predicted_n": 434,
+      "predicted_ms": 6324.134,
+      "predicted_per_token_ms": 14.605390300230948,
+      "predicted_per_second": 68.46787243913555
+    }
+  },
+  "elapsed_seconds": 6.406245100000888
+}

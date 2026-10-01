@@ -1,0 +1,392 @@
+﻿[
+    {
+        "id":  "HelpButton",
+        "name":  "도움말(\u0026H)",
+        "type":  "ControlType.Button"
+    },
+    {
+        "id":  "SplitMenuButton",
+        "name":  "슬라이더 보기",
+        "type":  "ControlType.Button"
+    },
+    {
+        "id":  "{7DDC1264-7E4D-4F74-BBC0-D191987C8D0F}",
+        "name":  "구성",
+        "type":  "ControlType.Button"
+    },
+    {
+        "id":  "{E44616AD-6DF1-4B94-85A4-E465AE8A19DB}",
+        "name":  "새 폴더",
+        "type":  "ControlType.Button"
+    },
+    {
+        "id":  "DropDown",
+        "name":  "필터 드롭다운",
+        "type":  "ControlType.Button"
+    },
+    {
+        "id":  "DropDown",
+        "name":  "필터 드롭다운",
+        "type":  "ControlType.Button"
+    },
+    {
+        "id":  "DropDown",
+        "name":  "필터 드롭다운",
+        "type":  "ControlType.Button"
+    },
+    {
+        "id":  "DropDown",
+        "name":  "필터 드롭다운",
+        "type":  "ControlType.Button"
+    },
+    {
+        "id":  "System.ItemNameDisplay",
+        "name":  "이름",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.DateModified",
+        "name":  "수정한 날짜",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemTypeText",
+        "name":  "유형",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.Size",
+        "name":  "크기",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemNameDisplay",
+        "name":  "이름",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.DateModified",
+        "name":  "수정한 날짜",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemTypeText",
+        "name":  "유형",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.Size",
+        "name":  "크기",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemNameDisplay",
+        "name":  "이름",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.DateModified",
+        "name":  "수정한 날짜",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemTypeText",
+        "name":  "유형",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.Size",
+        "name":  "크기",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemNameDisplay",
+        "name":  "이름",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.DateModified",
+        "name":  "수정한 날짜",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemTypeText",
+        "name":  "유형",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.Size",
+        "name":  "크기",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemNameDisplay",
+        "name":  "이름",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.DateModified",
+        "name":  "수정한 날짜",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemTypeText",
+        "name":  "유형",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.Size",
+        "name":  "크기",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemNameDisplay",
+        "name":  "이름",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.DateModified",
+        "name":  "수정한 날짜",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemTypeText",
+        "name":  "유형",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.Size",
+        "name":  "크기",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemNameDisplay",
+        "name":  "이름",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.DateModified",
+        "name":  "수정한 날짜",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemTypeText",
+        "name":  "유형",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.Size",
+        "name":  "크기",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemNameDisplay",
+        "name":  "이름",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.DateModified",
+        "name":  "수정한 날짜",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemTypeText",
+        "name":  "유형",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.Size",
+        "name":  "크기",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemNameDisplay",
+        "name":  "이름",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.DateModified",
+        "name":  "수정한 날짜",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemTypeText",
+        "name":  "유형",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.Size",
+        "name":  "크기",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemNameDisplay",
+        "name":  "이름",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.DateModified",
+        "name":  "수정한 날짜",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemTypeText",
+        "name":  "유형",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.Size",
+        "name":  "크기",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemNameDisplay",
+        "name":  "이름",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.DateModified",
+        "name":  "수정한 날짜",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemTypeText",
+        "name":  "유형",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.Size",
+        "name":  "크기",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemNameDisplay",
+        "name":  "이름",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.DateModified",
+        "name":  "수정한 날짜",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemTypeText",
+        "name":  "유형",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.Size",
+        "name":  "크기",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemNameDisplay",
+        "name":  "이름",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.DateModified",
+        "name":  "수정한 날짜",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemTypeText",
+        "name":  "유형",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.Size",
+        "name":  "크기",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemNameDisplay",
+        "name":  "이름",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.DateModified",
+        "name":  "수정한 날짜",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemTypeText",
+        "name":  "유형",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.Size",
+        "name":  "크기",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemNameDisplay",
+        "name":  "이름",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.DateModified",
+        "name":  "수정한 날짜",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemTypeText",
+        "name":  "유형",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.Size",
+        "name":  "크기",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemNameDisplay",
+        "name":  "이름",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.DateModified",
+        "name":  "수정한 날짜",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemTypeText",
+        "name":  "유형",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.Size",
+        "name":  "크기",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemNameDisplay",
+        "name":  "이름",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.DateModified",
+        "name":  "수정한 날짜",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.ItemTypeText",
+        "name":  "유형",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "System.Size",
+        "name":  "크기",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "SearchEditBox",
+        "name":  "검색창",
+        "type":  "ControlType.Edit"
+    },
+    {
+        "id":  "SearchBoxSearchButton",
+        "name":  "검색",
+        "type":  "ControlType.Button"
+    }
+]

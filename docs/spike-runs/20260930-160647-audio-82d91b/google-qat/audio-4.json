@@ -1,0 +1,47 @@
+{
+  "id": "audio-4",
+  "transport_ok": true,
+  "response": {
+    "duration_seconds": 30.0,
+    "reference": "다음 회의는 화요일 오후 세 시에 시작한다. 참석자는 영업팀과 지원팀 담당자이다.",
+    "result": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "다음 회의는 화요일 오후 3시에 시작한다. 참석자는 영업팀과 지원팀 담당자이다."
+          }
+        }
+      ],
+      "created": 1790752014,
+      "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+      "system_fingerprint": "b11146-7fe450e19",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 25,
+        "prompt_tokens": 781,
+        "total_tokens": 806,
+        "prompt_tokens_details": {
+          "cached_tokens": 1
+        }
+      },
+      "id": "chatcmpl-aI05sOJgnrKemxQHQM2beknhU7dcpr5N",
+      "timings": {
+        "cache_n": 1,
+        "prompt_n": 780,
+        "prompt_ms": 316.698,
+        "prompt_per_token_ms": 0.4060230769230769,
+        "prompt_per_second": 2462.914195858515,
+        "predicted_n": 25,
+        "predicted_ms": 378.842,
+        "predicted_per_token_ms": 15.785083333333333,
+        "predicted_per_second": 63.350948416490255
+      },
+      "thinking_requested": false,
+      "reasoning_observed": false
+    }
+  },
+  "elapsed_seconds": 0.784771799999362
+}

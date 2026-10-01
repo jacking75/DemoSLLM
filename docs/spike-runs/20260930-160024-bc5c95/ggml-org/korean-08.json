@@ -1,0 +1,43 @@
+{
+  "id": "korean-08",
+  "transport_ok": true,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "상한은 12만원이다."
+        }
+      }
+    ],
+    "created": 1790751787,
+    "model": "C:\\WorkingDev\\DemoSLLM\\models\\ggml-org\\gemma-4-E4B-it-Q4_0.gguf",
+    "system_fingerprint": "b11146-7fe450e19",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 10,
+      "prompt_tokens": 42,
+      "total_tokens": 52,
+      "prompt_tokens_details": {
+        "cached_tokens": 1
+      }
+    },
+    "id": "chatcmpl-XuyQD3jEoGXXR8hCs7ifPSy8fFu12mYf",
+    "timings": {
+      "cache_n": 1,
+      "prompt_n": 41,
+      "prompt_ms": 49.816,
+      "prompt_per_token_ms": 1.2150243902439024,
+      "prompt_per_second": 823.0287457844868,
+      "predicted_n": 10,
+      "predicted_ms": 150.273,
+      "predicted_per_token_ms": 16.697,
+      "predicted_per_second": 59.890998382943046
+    },
+    "thinking_requested": false,
+    "reasoning_observed": false
+  },
+  "elapsed_seconds": 0.21012689999952272
+}

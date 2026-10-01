@@ -1,0 +1,18 @@
+{
+    "externalSocketsObservedMax":  0,
+    "remainingServers":  [
+
+                         ],
+    "passed":  false,
+    "error":  "System.Management.Automation.RuntimeException: 시험 입력 창의 포커스를 얻지 못했다. 클립보드 복원 실패: The process cannot access the file \u0027C:\\WorkingDev\\DemoSLLM\\docs\\stage3-runs\\20260930-235909-ab3094\\guard-done.json\u0027 because it is being used by another process.",
+    "time":  "2026-09-30T23:59:19.1223432+09:00",
+    "serverPids":  [
+
+                   ],
+    "outcomes":  [
+
+                 ],
+    "sampling":  "1초 GUI NVML",
+    "observedPeakBytes":  0,
+    "offline":  "사용자 검증 면제·미확인"
+}

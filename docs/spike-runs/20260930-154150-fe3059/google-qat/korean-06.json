@@ -1,0 +1,42 @@
+{
+  "id": "korean-06",
+  "transport_ok": true,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"담당자\": \"박 과장\",\n  \"기한\": \"10월 5일\"\n}\n```",
+          "reasoning_content": "*   **Goal:** Extract the \"responsible person\" and the \"deadline\" from the sentence in JSON format.\n    *   Sentence: \"박 과장은 10월 5일까지 보고서를 제출한다.\"\n*   **Identify Entity (Responsible Person):** \"박 과장\" (Manager Park).\n*   **Identify Entity (Deadline):** \"10월 5일\" (October 5th).\n*   **Format as JSON:** Use appropriate keys like `담당자` and `기한`.\n\n*   **Result Generation.**"
+        }
+      }
+    ],
+    "created": 1790750579,
+    "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+    "system_fingerprint": "b11146-7fe450e19",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 155,
+      "prompt_tokens": 43,
+      "total_tokens": 198,
+      "prompt_tokens_details": {
+        "cached_tokens": 7
+      }
+    },
+    "id": "chatcmpl-N6v80sodOK5ss0viiN4FPD88kfs5orPM",
+    "timings": {
+      "cache_n": 7,
+      "prompt_n": 36,
+      "prompt_ms": 62.878,
+      "prompt_per_token_ms": 1.7466111111111111,
+      "prompt_per_second": 572.5372944432074,
+      "predicted_n": 155,
+      "predicted_ms": 2228.954,
+      "predicted_per_token_ms": 14.473727272727274,
+      "predicted_per_second": 69.09070353179114
+    }
+  },
+  "elapsed_seconds": 2.3211258000010275
+}

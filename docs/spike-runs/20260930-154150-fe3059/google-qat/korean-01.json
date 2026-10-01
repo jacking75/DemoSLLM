@@ -1,0 +1,41 @@
+{
+  "id": "korean-01",
+  "transport_ok": true,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "## 사내 문서를 외부로 보내지 않는 AI의 장점 및 한계\n\n사내 문서를 외부에 유출하지 않는 AI는 기업의 기밀을 보호하고 내부 데이터를 안전하게 활용할 수 있게 하는 중요한 도구입니다. 다음은 이 시스템의 장점과 한계 각각 두 가지입니다.\n\n---\n\n### 1. 장점 (Advantages)\n\n*   **데이터 보안 및 기밀 유지 강화:** 사내 기밀 정보(기술 문서, 재무 정보, 고객 데이터 등)가 외부 서버나 클라우드로 전송되지 않으므로, 해킹이나 정보 유출의 위험이 원천적으로 차단됩니다. 이는 기업의 핵심 자산과 브랜드 신뢰도를 보호하는 가장 강력한 수단입니다.\n*   **정보의 완전한 통제권 유지:** 모든 데이터와 AI 모델이 사내 인프라(On-premise 또는 폐쇄된 망) 내에서만 운영됩니다. 따라서 데이터에 대한 소유권과 관리 책임이 기업 내부에서 온전히 유지되며, 외부 기업이나 제3자가 데이터 접근 권한을 가지지 않습니다.\n\n### 2. 한계 (Limitations)\n\n*   **기술적 한계 및 성능 제약 (Scalability and Performance):** 모든 처리를 사내 서버에서만 수행해야 하므로, 대규모 데이터 처리나 복잡한 추론(Inference) 작업을 처리할 때 외부 클라우드 기반 서비스에 비해 컴퓨팅 자원(GPU 등)의 제약으로 인해 속도나 처리 규모 면에서 한계를 보일 수 있습니다.\n*   **유지보수 및 최신 기술 도입의 어려움 (Maintenance and Update):** 사내에서 모든 인프라를 구축하고 관리해야 하므로, AI 모델의 업데이트, 보안 패치 적용, 하드웨어 교체 등 지속적인 관리 비용과 복잡성이 발생합니다. 또한, 외부 서비스가 제공하는 최신 AI 모델이나 혁신적인 기능(LLM 발전 등)을 즉각적으로 도입하는 데 제약이 있을 수 있습니다."
+        }
+      }
+    ],
+    "created": 1790750548,
+    "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+    "system_fingerprint": "b11146-7fe450e19",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 428,
+      "prompt_tokens": 38,
+      "total_tokens": 466,
+      "prompt_tokens_details": {
+        "cached_tokens": 33
+      }
+    },
+    "id": "chatcmpl-QVDBEQFQfcLg5nCiGUVYOj7MIKLoG0of",
+    "timings": {
+      "cache_n": 33,
+      "prompt_n": 5,
+      "prompt_ms": 34.544,
+      "prompt_per_token_ms": 6.908799999999999,
+      "prompt_per_second": 144.74293654469665,
+      "predicted_n": 428,
+      "predicted_ms": 6076.212,
+      "predicted_per_token_ms": 14.23000468384075,
+      "predicted_per_second": 70.27404573770632
+    }
+  },
+  "elapsed_seconds": 6.114357099999324
+}

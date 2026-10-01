@@ -1,0 +1,41 @@
+{
+    "observedPeakBytes":  5578399744,
+    "time":  "2026-10-01T00:08:35.7875157+09:00",
+    "outcomes":  [
+                     {
+                         "passed":  true,
+                         "source":  "가짜 입력 직접 전달, 외부 앱 선택 아님",
+                         "action":  "요약",
+                         "answer":  "가상 고객에게 내일 오후 세 시까지 견적서를 보내라는 요청입니다."
+                     },
+                     {
+                         "passed":  true,
+                         "source":  "가짜 입력 직접 전달, 외부 앱 선택 아님",
+                         "action":  "맞춤법 교정",
+                         "answer":  "가상 고객에게 내일 오후 세 시까지 견적서를 보내 주세요."
+                     },
+                     {
+                         "passed":  true,
+                         "source":  "가짜 입력 직접 전달, 외부 앱 선택 아님",
+                         "action":  "정중한 어투",
+                         "answer":  "가상 고객에게 내일 오후 세 시까지 견적서를 송부해 주시기 바랍니다."
+                     },
+                     {
+                         "passed":  true,
+                         "source":  "가짜 입력 직접 전달, 외부 앱 선택 아님",
+                         "action":  "영어 번역",
+                         "answer":  "Please send the quote to the prospective customer by 3 PM tomorrow."
+                     },
+                     {
+                         "test":  "전역키 예약과 트레이 최소화 창 숨김",
+                         "passed":  true
+                     }
+                 ],
+    "systemHotkeySelection":  "메모장·브라우저 SendInput은 별도 미확인",
+    "error":  null,
+    "externalSocketsObservedMax":  0,
+    "remainingServers":  [
+
+                         ],
+    "passed":  true
+}

@@ -1,0 +1,43 @@
+{
+  "id": "image-error-4",
+  "transport_ok": true,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "DEMO APPLICATION ERROR: Connection refused, Target: 127.0.0.1:8080\n로컬 서비스가 실행되고 있지 않습니다.\n서비스가 실행 중인지 확인하거나, 해당 포트에서 서비스를 시작하세요."
+        }
+      }
+    ],
+    "created": 1790753537,
+    "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+    "system_fingerprint": "b11146-7fe450e19",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 53,
+      "prompt_tokens": 303,
+      "total_tokens": 356,
+      "prompt_tokens_details": {
+        "cached_tokens": 298
+      }
+    },
+    "id": "chatcmpl-09HMtHVHWtvxLvo6WZ8FngizAaskdlrh",
+    "timings": {
+      "cache_n": 298,
+      "prompt_n": 5,
+      "prompt_ms": 45.029,
+      "prompt_per_token_ms": 9.0058,
+      "prompt_per_second": 111.03955228852516,
+      "predicted_n": 53,
+      "predicted_ms": 749.238,
+      "predicted_per_token_ms": 14.408423076923079,
+      "predicted_per_second": 69.40384764253814
+    },
+    "thinking_requested": false,
+    "reasoning_observed": false
+  },
+  "elapsed_seconds": 0.8103307999990648
+}

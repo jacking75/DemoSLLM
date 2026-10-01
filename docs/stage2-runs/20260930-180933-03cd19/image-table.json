@@ -1,0 +1,30 @@
+{
+  "name": "table",
+  "extraction": {
+    "Kind": "table",
+    "Total": null,
+    "Rows": [
+      {
+        "Name": "Sales",
+        "Quantity": 120,
+        "Amount": 150
+      },
+      {
+        "Name": "Support",
+        "Quantity": 80,
+        "Amount": 90
+      }
+    ],
+    "Raw": "{\u0022kind\u0022:\u0022table\u0022,\u0022total\u0022:null,\u0022rows\u0022:[{\u0022name\u0022:\u0022Sales\u0022,\u0022quantity\u0022:120,\u0022amount\u0022:150},{\u0022name\u0022:\u0022Support\u0022,\u0022quantity\u0022:80,\u0022amount\u0022:90}]}",
+    "Attempts": 1
+  },
+  "stats": {
+    "TokensPerSecond": 68.51449163062858,
+    "FirstTokenSeconds": 0.2627051,
+    "TotalTokens": 1336,
+    "RateSource": "\uC11C\uBC84 \uC0DD\uC131",
+    "ProcessId": 63480,
+    "Context": 8192
+  },
+  "passed": true
+}

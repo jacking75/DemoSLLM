@@ -1,0 +1,62 @@
+{
+  "id": "tool-0.2-07",
+  "transport_ok": true,
+  "response": {
+    "expected_name": "propose_organize_plan",
+    "expected_arguments": {
+      "rule": "rule-6"
+    },
+    "result": {
+      "choices": [
+        {
+          "finish_reason": "tool_calls",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": [
+              {
+                "type": "function",
+                "function": {
+                  "name": "propose_organize_plan",
+                  "arguments": "{\"rule\":\"rule-6\"}"
+                },
+                "id": "qt7h2C4U23RRs9gN2XTFxBtqD7i933Vs"
+              }
+            ]
+          }
+        }
+      ],
+      "created": 1790751719,
+      "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+      "system_fingerprint": "b11146-7fe450e19",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 21,
+        "prompt_tokens": 251,
+        "total_tokens": 272,
+        "prompt_tokens_details": {
+          "cached_tokens": 219
+        }
+      },
+      "id": "chatcmpl-FWTMA3KDg6XUQXlo6ZTqN17onPsLYSnc",
+      "timings": {
+        "cache_n": 219,
+        "prompt_n": 32,
+        "prompt_ms": 74.385,
+        "prompt_per_token_ms": 2.32453125,
+        "prompt_per_second": 430.1942595953485,
+        "predicted_n": 21,
+        "predicted_ms": 317.385,
+        "predicted_per_token_ms": 15.86925,
+        "predicted_per_second": 63.01495029695795
+      },
+      "thinking_requested": false,
+      "reasoning_observed": false
+    },
+    "exact_call_success": true,
+    "content_present": false,
+    "content_leak_suspected": false
+  },
+  "elapsed_seconds": 0.40247679999993125
+}

@@ -1,0 +1,32 @@
+{
+    "parentPid":  51144,
+    "serverPid":  56020,
+    "force":  true,
+    "answer":  "로컬 AI는 민감한 사내 문서를 외부로 유출하지 않고 자체 환경에서 처리할 수 있어 데이터 보안을 강화할 수 있습니다.",
+    "status":  "생성 완료이다. 결과를 검토해야 한다.",
+    "metrics":  "속도: 65.9 tok/s\n출처: 서버 생성\n첫 토큰: 0.170초\n누적 처리: 100\nVRAM: 6.511 GiB\nGPU: 91%\n온도: 50℃\n전력: 미확인W\n인터넷: 연결 (Windows 판정)",
+    "sockets":  "외부 연결 0건",
+    "tcp":  [
+                {
+                    "LocalAddress":  "127.0.0.1",
+                    "RemoteAddress":  "127.0.0.1",
+                    "State":  7
+                },
+                {
+                    "LocalAddress":  "127.0.0.1",
+                    "RemoteAddress":  "0.0.0.0",
+                    "State":  2
+                }
+            ],
+    "udp":  [
+
+            ],
+    "memoryUsedMiB":  {
+                          "before":  "2051",
+                          "during":  "6353",
+                          "after":  "2072"
+                      },
+    "serverRemaining":  false,
+    "offlineGate":  "미확인: 인터넷 단절 조작 안 함",
+    "time":  "2026-09-30T17:09:09.3949917+09:00"
+}

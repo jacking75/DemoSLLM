@@ -1,0 +1,11 @@
+{
+  "passed": [
+    "\uD30C\uC77C \uB4DC\uB86D routed-event\uC640 \uC6D0\uBCF8 \uC774\uBBF8\uC9C0 \uC77D\uAE30",
+    "\uC2E4\uC81C Windows \uD074\uB9BD\uBCF4\uB4DC \uC774\uBBF8\uC9C0 \uBD99\uC5EC\uB123\uAE30 \uBC84\uD2BC",
+    "\uAE30\uC874 \uD074\uB9BD\uBCF4\uB4DC \uBCF5\uC6D0 \uD638\uCD9C \uC131\uACF5"
+  ],
+  "total": 3,
+  "error": "System.IO.IOException: \uC785\uB825 \uB370\uC2A4\uD06C\uD1B1 \uC811\uADFC \uBBF8\uD655\uC778: GetCursorPos \uC2E4\uD328\uB85C \uC2E4\uC81C \uB9C8\uC6B0\uC2A4 \uAC80\uC99D\uC744 \uC911\uB2E8\uD55C\uB2E4\r\n   at LocalMind.Wpf.MainWindow.\u003CRunInputDiagnostics\u003Eg__Check|22_0(Boolean value, String name, \u003C\u003Ec__DisplayClass22_0\u0026) in C:\\WorkingDev\\DemoSLLM\\src\\App.Wpf\\InputDiagnostics.cs:line 22\r\n   at LocalMind.Wpf.MainWindow.RunInputDiagnostics() in C:\\WorkingDev\\DemoSLLM\\src\\App.Wpf\\InputDiagnostics.cs:line 43",
+  "osDragGesture": "routed-event\uB9CC \uAC80\uC99D, OS \uB4DC\uB798\uADF8 \uC81C\uC2A4\uCC98 \uBBF8\uD655\uC778",
+  "time": "2026-09-30T21:15:47.4644042+09:00"
+}

@@ -1,0 +1,62 @@
+{
+  "server": "C:\\WorkingDev\\DemoSLLM\\third_party\\llama-b11146-cuda12\\llama-server.exe",
+  "release": "v0.5.0 linked b11146 (0.5.0-dev, commit 7fe450e19)",
+  "backend": "Windows x64 CUDA 12.4",
+  "gpu_index": 0,
+  "startup_timeout_seconds": 300,
+  "request_timeout_seconds": 180,
+  "enable_thinking": false,
+  "extra_args": [
+    "--no-webui",
+    "--image-max-tokens",
+    "1120"
+  ],
+  "candidates": [
+    {
+      "name": "google-qat",
+      "repository": "google/gemma-4-E4B-it-qat-q4_0-gguf@4b4a2c1d584be7264f87aac328a1bc739ce81b6c",
+      "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+      "mmproj": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B-it-mmproj.gguf",
+      "projector_provenance": "same pinned repository"
+    },
+    {
+      "name": "ggml-org",
+      "repository": "ggml-org/gemma-4-E4B-it-GGUF@b8093469224f83f5c38f691eb906c380e9e63114",
+      "model": "C:\\WorkingDev\\DemoSLLM\\models\\ggml-org\\gemma-4-E4B-it-Q4_0.gguf",
+      "mmproj": "C:\\WorkingDev\\DemoSLLM\\models\\ggml-org\\mmproj-gemma-4-E4B-it-BF16.gguf",
+      "projector_provenance": "same pinned repository"
+    }
+  ],
+  "embedding": {
+    "repository": "ggml-org/embeddinggemma-300M-GGUF",
+    "model": "C:\\WorkingDev\\DemoSLLM\\models\\embedding\\embeddinggemma-300M-Q8_0.gguf",
+    "extra_args": [
+      "--embedding",
+      "--pooling",
+      "mean"
+    ]
+  },
+  "audio_source": "Microsoft Heami Desktop local synthetic speech; padded with silence to 30 seconds; not user recordings",
+  "audio": [
+    {
+      "file": "C:\\WorkingDev\\DemoSLLM\\assets\\samples\\audio-probe\\01.wav",
+      "reference": "김 대리는 금요일까지 견적서를 작성하고 이 과장은 다음 주 월요일에 검토한다."
+    },
+    {
+      "file": "C:\\WorkingDev\\DemoSLLM\\assets\\samples\\audio-probe\\02.wav",
+      "reference": "출장 숙박비는 하루 십이만 원까지 지원하고 교통비 정산에는 영수증이 필요하다."
+    },
+    {
+      "file": "C:\\WorkingDev\\DemoSLLM\\assets\\samples\\audio-probe\\03.wav",
+      "reference": "박 과장은 십월 오일까지 보고서를 제출하고 고객에게 검토 결과를 전달한다."
+    },
+    {
+      "file": "C:\\WorkingDev\\DemoSLLM\\assets\\samples\\audio-probe\\04.wav",
+      "reference": "다음 회의는 화요일 오후 세 시에 시작한다. 참석자는 영업팀과 지원팀 담당자이다."
+    },
+    {
+      "file": "C:\\WorkingDev\\DemoSLLM\\assets\\samples\\audio-probe\\05.wav",
+      "reference": "계약 해지 통지는 삼십 일 전에 서면으로 한다. 구매 금액 오백만 원 이상은 부서장 승인이 필요하다."
+    }
+  ]
+}

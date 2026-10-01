@@ -1,0 +1,43 @@
+{
+  "id": "korean-04",
+  "transport_ok": true,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Here are several ways to translate \"계약서는 내부 검토 후 전달하겠습니다\" into English, depending on the nuance you want to convey:\n\n**Most Common and Professional:**\n\n* **\"We will send the contract after an internal review.\"** (Direct, standard business English)\n* **\"The contract will be forwarded after internal review.\"** (Slightly more formal)\n* **\"We will provide the contract once it has undergone internal review.\"** (Emphasizes the completion of the review)\n\n**More Concise Options:**\n\n* **\"We'll send the contract following internal review.\"** (More conversational but still professional)\n* **\"The contract will be shared after we review it internally.\"** (Slightly less formal)\n\n**More Formal Options (If you are dealing with high-level stakeholders):**\n\n* **\"We will submit the contract subsequent to our internal review process.\"**\n* **\"The executed contract will be transmitted after completion of our internal review.\"**\n\n---\n\n### Which one should you choose?\n\n* **For most everyday business communication:** Use **\"We will send the contract after an internal review.\"**\n* **If you want to sound very polished and formal:** Use **\"The contract will be forwarded after internal review.\"**\n* **If you are responding quickly and informally:** Use **\"We'll send the contract following internal review.\"**"
+        }
+      }
+    ],
+    "created": 1790751681,
+    "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+    "system_fingerprint": "b11146-7fe450e19",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 294,
+      "prompt_tokens": 26,
+      "total_tokens": 320,
+      "prompt_tokens_details": {
+        "cached_tokens": 1
+      }
+    },
+    "id": "chatcmpl-7mmiTJSJRv16JlmwuXB9HQtaJIl7nAYY",
+    "timings": {
+      "cache_n": 1,
+      "prompt_n": 25,
+      "prompt_ms": 45.278,
+      "prompt_per_token_ms": 1.8111199999999998,
+      "prompt_per_second": 552.1445293520032,
+      "predicted_n": 294,
+      "predicted_ms": 4557.164,
+      "predicted_per_token_ms": 15.553460750853242,
+      "predicted_per_second": 64.29437255275431
+    },
+    "thinking_requested": false,
+    "reasoning_observed": false
+  },
+  "elapsed_seconds": 4.610653700001421
+}

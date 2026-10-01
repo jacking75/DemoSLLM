@@ -1,0 +1,28 @@
+{
+  "options": {
+    "Server": "C:\\WorkingDev\\DemoSLLM\\third_party/llama-b11146-cuda12/llama-server.exe",
+    "Model": "C:\\WorkingDev\\DemoSLLM\\models/fallback/gemma-4-E2B-it-Q4_0.gguf",
+    "Projector": "C:\\WorkingDev\\DemoSLLM\\models/fallback/mmproj-gemma-4-E2B-it-BF16.gguf",
+    "Context": 4096,
+    "Cpu": false,
+    "Embedding": false
+  },
+  "inferencePid": 27568,
+  "embeddingPid": 60484,
+  "before": {
+    "UsedBytes": 2177880064,
+    "TotalBytes": 8585740288,
+    "Utilization": 0,
+    "Temperature": 35,
+    "PowerWatts": null
+  },
+  "loaded": {
+    "UsedBytes": 5272670208,
+    "TotalBytes": 8585740288,
+    "Utilization": 0,
+    "Temperature": 38,
+    "PowerWatts": null
+  },
+  "internet": "\uC5F0\uACB0 (Windows \uD310\uC815)",
+  "offlineTest": "\uC0AC\uC6A9\uC790 \uBA74\uC81C / \uB3D9\uC791 \uBBF8\uD655\uC778"
+}

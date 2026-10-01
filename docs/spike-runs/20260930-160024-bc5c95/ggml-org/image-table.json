@@ -1,0 +1,43 @@
+{
+  "id": "image-table",
+  "transport_ok": true,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"Sales\": {\n    \"January\": 120,\n    \"February\": 150\n  },\n  \"Support\": {\n    \"January\": 80,\n    \"February\": 90\n  }\n}\n```"
+        }
+      }
+    ],
+    "created": 1790751806,
+    "model": "C:\\WorkingDev\\DemoSLLM\\models\\ggml-org\\gemma-4-E4B-it-Q4_0.gguf",
+    "system_fingerprint": "b11146-7fe450e19",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 63,
+      "prompt_tokens": 239,
+      "total_tokens": 302,
+      "prompt_tokens_details": {
+        "cached_tokens": 1
+      }
+    },
+    "id": "chatcmpl-OKxGHd1fvqxPee9nxyhQcyJee8ikZKkT",
+    "timings": {
+      "cache_n": 1,
+      "prompt_n": 238,
+      "prompt_ms": 187.754,
+      "prompt_per_token_ms": 0.7888823529411765,
+      "prompt_per_second": 1267.616136007755,
+      "predicted_n": 63,
+      "predicted_ms": 1019.73,
+      "predicted_per_token_ms": 16.44725806451613,
+      "predicted_per_second": 60.80040795112431
+    },
+    "thinking_requested": false,
+    "reasoning_observed": false
+  },
+  "elapsed_seconds": 1.2403039000000717
+}

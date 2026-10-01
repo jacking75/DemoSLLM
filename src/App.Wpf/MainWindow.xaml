@@ -1,0 +1,76 @@
+<Window x:Class="LocalMind.Wpf.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="LocalMind Studio · 로컬 업무 AI" Width="1320" Height="900" MinWidth="1080" MinHeight="760" Background="#0E1420" FontFamily="맑은 고딕" Closing="OnClosing">
+  <Grid Margin="28">
+    <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+    <Grid.ColumnDefinitions><ColumnDefinition Width="210"/><ColumnDefinition Width="*"/><ColumnDefinition Width="290"/></Grid.ColumnDefinitions>
+    <StackPanel Grid.ColumnSpan="3" Margin="0,0,0,26">
+      <TextBlock Text="LOCALMIND STUDIO" FontSize="32" FontWeight="Bold" Foreground="#A4E2D5"/>
+      <TextBlock Text="우리 데이터로, 우리 PC에서     /     로컬 업무 AI" FontSize="16" Margin="0,8,0,0" Foreground="#9EB0C7"/>
+      <Border Background="#182338" CornerRadius="8" Padding="12" Margin="0,12,0,0">
+        <StackPanel>
+          <WrapPanel>
+            <Button x:Name="DemoBeginButton" Content="7분 데모 시작" Click="BeginDemo" AutomationProperties.AutomationId="DemoBegin"/>
+            <Button x:Name="DemoPreviousButton" Content="이전 단계" Click="PreviousDemo" IsEnabled="False" AutomationProperties.AutomationId="DemoPrevious"/>
+            <Button x:Name="DemoNextButton" Content="다음 단계" Click="NextDemo" IsEnabled="False" AutomationProperties.AutomationId="DemoNext"/>
+            <Button x:Name="DemoRunButton" Content="현재 단계 실행" Click="RunDemo" IsEnabled="False" AutomationProperties.AutomationId="DemoRun"/>
+            <Button x:Name="DemoEndButton" Content="데모 종료" Click="EndDemo" IsEnabled="False" AutomationProperties.AutomationId="DemoEnd"/>
+            <CheckBox x:Name="SafeReplay" Content="안전 재생" Margin="12,12,14,0" Checked="ChangeReplay" Unchecked="ChangeReplay" AutomationProperties.AutomationId="DemoReplay"/>
+            <CheckBox x:Name="PresenterNotes" Content="시연자 노트" Margin="0,12,0,0" Checked="ChangeNotes" Unchecked="ChangeNotes" AutomationProperties.AutomationId="DemoNotesToggle"/>
+          </WrapPanel>
+          <TextBlock x:Name="DemoProgress" Text="7분 진행 도우미 · 샘플과 실행 안내를 자동으로 준비한다." FontSize="17" AutomationProperties.AutomationId="DemoProgress"/>
+          <TextBlock x:Name="DemoInstruction" Visibility="Collapsed" FontSize="15" Foreground="#A4E2D5" Margin="0,6,0,0" AutomationProperties.AutomationId="DemoInstruction"/>
+          <TextBlock x:Name="DemoNotes" Visibility="Collapsed" FontSize="14" Foreground="#9EB0C7" Margin="0,6,0,0" AutomationProperties.AutomationId="DemoNotes"/>
+          <TextBlock x:Name="ReplayBanner" Visibility="Collapsed" Text="재생 결과 · 저장된 실제 응답이다. 현재 추론·성능 측정이 아니다. 투명성 패널은 현재 서버의 상태다." Foreground="#FFD38A" FontWeight="Bold" FontSize="17" Margin="0,6,0,0" AutomationProperties.AutomationId="ReplayBanner"/>
+        </StackPanel>
+      </Border>
+    </StackPanel>
+    <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" Margin="0,0,22,0"><StackPanel>
+      <TextBlock Text="업무 시나리오" FontSize="17" Margin="0,0,0,18"/>
+      <Button Content="로컬 채팅" Click="Navigate"/>
+      <Button Content="A · 화면·문서 읽기" Click="Navigate"/>
+      <Button Content="B · 내 문서 금고" Click="Navigate"/>
+      <Button Content="E · 전역 단축키" Click="Navigate"/>
+      <Button Content="F · AI 한계" Click="Navigate"/>
+      <TextBlock Text="음성·파일 정리: P2 보류" Foreground="#9EB0C7" FontSize="14" Margin="0,8,0,24"/>
+      <CheckBox x:Name="LargeText" Content="시연 글자 확대" Checked="ChangeFont" Unchecked="ChangeFont"/>
+      <TextBlock Text="데모 전 체크리스트" FontSize="17" Margin="0,22,0,8"/>
+      <TextBlock x:Name="DemoChecks" FontSize="14" Foreground="#9EB0C7" AutomationProperties.AutomationId="DemoChecks"/>
+      <CheckBox Content="다른 GPU 앱을 닫았다" FontSize="14" Margin="0,10,0,8"/>
+      <CheckBox Content="가상 샘플만 사용한다" FontSize="14" Margin="0,0,0,8"/>
+      <CheckBox Content="인터넷 상태를 확인했다" FontSize="14" Margin="0,0,0,8"/>
+      <CheckBox Content="단축키를 사전 확인했다" FontSize="14" Margin="0,0,0,8"/>
+      <TextBlock Text="인터넷 끊기는 사용자가 직접 한다. 연결 상태를 그대로 소개한다. AI 결과와 출처를 대조한다." FontSize="14" Foreground="#9EB0C7"/>
+    </StackPanel></ScrollViewer>
+    <Grid Grid.Row="1" Grid.Column="1" Margin="0,0,22,0">
+      <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="120"/><RowDefinition Height="Auto"/><RowDefinition Height="72"/></Grid.RowDefinitions>
+      <StackPanel Margin="0,0,0,18">
+        <TextBlock x:Name="MainTitle" Text="외부 AI API 없이 대화한다" FontSize="27"/>
+        <TextBlock Text="AI 결과는 검증이 필요하다. 재생 결과는 별도 표시한다." FontSize="14" Foreground="#9EB0C7" Margin="0,10,0,0"/>
+      </StackPanel>
+      <TextBox x:Name="Answer" Grid.Row="1" AutomationProperties.AutomationId="Answer" IsReadOnly="True" AcceptsReturn="True" FontSize="21" Margin="0,0,0,18"/>
+      <TextBox x:Name="Input" Grid.Row="2" AutomationProperties.AutomationId="Input" AcceptsReturn="True" Margin="0,0,0,18" ToolTip="업무 질문을 입력한다."/>
+      <ScrollViewer x:Name="FeatureHost" AutomationProperties.AutomationId="FeatureHost" Grid.Row="1" Grid.RowSpan="2" Visibility="Collapsed" VerticalScrollBarVisibility="Auto" Margin="0,0,0,18"/>
+      <StackPanel Grid.Row="3" Orientation="Horizontal">
+        <Button x:Name="StartButton" Content="로컬 서버 시작" Click="StartServer" AutomationProperties.AutomationId="Start"/>
+        <Button x:Name="SendButton" Content="질문 보내기" Click="SendChat" IsEnabled="False" AutomationProperties.AutomationId="Send"/>
+        <Button x:Name="CancelButton" Content="취소" Click="CancelRequest" IsEnabled="False" AutomationProperties.AutomationId="Cancel"/>
+      </StackPanel>
+      <TextBlock x:Name="Status" Grid.Row="4" Text="서버를 시작하면 로컬 채팅을 사용할 수 있다." FontSize="15" Foreground="#A4E2D5" AutomationProperties.AutomationId="Status"/>
+    </Grid>
+    <Border Grid.Row="1" Grid.Column="2" Background="#182338" CornerRadius="12" Padding="20">
+      <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel>
+          <TextBlock Text="투명성 패널" FontSize="23" Margin="0,0,0,22"/>
+          <TextBlock x:Name="ModelLabel" Text="Gemma 4 E2B · ggml-org&#10;Q4_0 · 컨텍스트 4096&#10;메모리 절약 기본 · 시작 전" FontSize="16" Margin="0,0,0,18"/>
+          <TextBlock x:Name="Sockets" Text="외부 연결 미확인" FontSize="20" Margin="0,0,0,18" AutomationProperties.AutomationId="Sockets"/>
+          <TextBlock x:Name="Metrics" Text="미확인" FontSize="16" Margin="0,0,0,20" AutomationProperties.AutomationId="Metrics"/>
+          <TextBlock Text="백만 토큰당 참고 단가 (선택)" FontSize="14"/>
+          <TextBox x:Name="Price" FontSize="16" Margin="0,8,0,10" TextChanged="PriceChanged"/>
+          <TextBlock x:Name="Cost" Text="입력한 단가 기준 참고용: 미입력" FontSize="14" Margin="0,0,0,18"/>
+          <Button Content="모델 SHA-256 검증" Click="VerifyModels"/>
+          <Button Content="없는 모델 다운로드" Click="DownloadModels"/>
+          <TextBlock Text="추론: 127.0.0.1 전용&#10;사전 설치 후 다운로드 불필요&#10;방화벽 자동 변경 없음" Foreground="#9EB0C7" FontSize="14" Margin="0,16,0,0"/>
+        </StackPanel>
+      </ScrollViewer>
+    </Border>
+  </Grid>
+</Window>

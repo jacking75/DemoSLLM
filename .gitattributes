@@ -1,0 +1,10 @@
+# Preserve source and recorded evidence bytes across Windows Git checkouts.
+# Demo replay verifies SHA-256 over the original JSON bytes.
+* -text
+# Preserve the existing clone's text normalization and LICENSE worktree bytes.
+.gitignore text eol=lf
+LICENSE text eol=crlf
+*.png binary
+*.wav binary
+*.pdf binary
+*.docx binary

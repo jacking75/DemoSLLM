@@ -1,0 +1,43 @@
+{
+  "id": "image-long",
+  "transport_ok": true,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "영수증의 총 금액은 **9000 KRW**입니다."
+        }
+      }
+    ],
+    "created": 1790751707,
+    "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+    "system_fingerprint": "b11146-7fe450e19",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 4732,
+      "total_tokens": 4750,
+      "prompt_tokens_details": {
+        "cached_tokens": 1
+      }
+    },
+    "id": "chatcmpl-oDlGgo98YO8sG3MybXgMeqN1ibtNfmRc",
+    "timings": {
+      "cache_n": 1,
+      "prompt_n": 4731,
+      "prompt_ms": 1437.519,
+      "prompt_per_token_ms": 0.30385098287888396,
+      "prompt_per_second": 3291.0869351987694,
+      "predicted_n": 18,
+      "predicted_ms": 275.909,
+      "predicted_per_token_ms": 16.22994117647059,
+      "predicted_per_second": 61.61451783015414
+    },
+    "thinking_requested": false,
+    "reasoning_observed": false
+  },
+  "elapsed_seconds": 1.7682960999991337
+}

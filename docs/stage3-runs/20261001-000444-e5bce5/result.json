@@ -1,0 +1,18 @@
+{
+    "externalSocketsObservedMax":  0,
+    "remainingServers":  [
+
+                         ],
+    "passed":  false,
+    "error":  "System.Management.Automation.MethodInvocationException: \"1\"개의 인수가 있는 \"Keys\"을(를) 호출하는 동안 예외가 발생했습니다. \"실제 키 입력 전달 실패이다. sent=0 expected=2 size=40 Win32=5\" ---\u003e System.Exception: 실제 키 입력 전달 실패이다. sent=0 expected=2 size=40 Win32=5\r\n   위치: ShortcutTestNative.Keys(UInt16[] keys)\r\n   위치: CallSite.Target(Closure , CallSite , Type , Int32 )\r\n   --- 내부 예외 스택 추적의 끝 ---\r\n   위치: System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   위치: System.Management.Automation.Interpreter.ActionCallInstruction`2.Run(InterpretedFrame frame)\r\n   위치: System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)\r\n   위치: System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)",
+    "time":  "2026-10-01T00:04:53.9223382+09:00",
+    "serverPids":  [
+
+                   ],
+    "outcomes":  [
+
+                 ],
+    "sampling":  "1초 GUI NVML",
+    "observedPeakBytes":  0,
+    "offline":  "사용자 검증 면제·미확인"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "korean-05",
+  "transport_ok": true,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "length",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "상황과 상대방에 따라 뉘앙스를 달리할 수 있습니다. 가장 일반적이고 비즈니스에 적합한 표현들을 알려드립니다.\n\n### 💼 비즈니스 상황 (가장 추천하는 표현)\n가장 정중하고 격식을 갖춘 표현입니다.\n\n*   **첨부된 제안서를 금요일까지 검토해 주시기 바랍니다.**\n    *(Formal/Business standard)*\n*   **금요일까지 제안서 검토 부탁드립니다.**\n    *(Polite/Concise, 실무에서 가장 많이 사용)*\n\n### 🗣 일반적인 상황 (친한 동료나 관계가 편할 때",
+          "reasoning_content": "*   **Analyze the request:** The user wants to translate the English sentence \"Please review the attached proposal by Friday\" into Korean.\n*   **Analyze the sentence:**\n    *   \"Please review\" (Request/Polite command) -> ~해 주세요, ~ 검토해 주세요\n    *   \"the attached proposal\" (Object) -> 첨부된 제안서, 첨부 파일\n    *   \"by Friday\" (Deadline) -> 금요일까지\n*   **Determine the appropriate level of formality/tone:** Since this is a business communication (review a proposal), a polite and professional tone (Hapsyo-che or Haeyo-che, depending on the audience) is necessary.\n*   **Draft options (Korean):**\n\n    1.  *(Very Formal/Business Email)*: 첨부된 제안서를 금요일까지 검토해 주시기 바랍니다.\n    2.  *(Polite/Standard)*: 첨부된 제안서를 금요일까지 검토해 주세요.\n    3.  *(Slightly more natural/less direct)*: 금요일까지 첨부된 제안서를 검토 부탁드립니다.\n\n*   **Select the best option:** Option 3 is very natural and commonly used in business emails in Korea. Option 1 is the most formal and suitable for high-level communication. I will provide the most common and versatile option.\n\n*   **Final Polish (Standard Business Korean):** 첨부된 제안서를 금요일까지 검토해 주시기 바랍니다. (Formal) / 첨부된 제안서를 금요일까지 검토해 주세요. (Standard Polite) / 금요일까지 제안서 검토 부탁드립니다. (Concise)\n\n*(I will provide the most common and versatile translation.)*"
+        }
+      }
+    ],
+    "created": 1790750577,
+    "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+    "system_fingerprint": "b11146-7fe450e19",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 512,
+      "prompt_tokens": 32,
+      "total_tokens": 544,
+      "prompt_tokens_details": {
+        "cached_tokens": 7
+      }
+    },
+    "id": "chatcmpl-KrHR2HXLFV0YIw6OyNi8cCTKY3T7yK3T",
+    "timings": {
+      "cache_n": 7,
+      "prompt_n": 25,
+      "prompt_ms": 61.455,
+      "prompt_per_token_ms": 2.4581999999999997,
+      "prompt_per_second": 406.8017248393133,
+      "predicted_n": 512,
+      "predicted_ms": 7403.185,
+      "predicted_per_token_ms": 14.487641878669276,
+      "predicted_per_second": 69.02434560260211
+    }
+  },
+  "elapsed_seconds": 7.486437300000034
+}

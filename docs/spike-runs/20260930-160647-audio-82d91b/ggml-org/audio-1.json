@@ -1,0 +1,47 @@
+{
+  "id": "audio-1",
+  "transport_ok": true,
+  "response": {
+    "duration_seconds": 30.0,
+    "reference": "김 대리는 금요일까지 견적서를 작성하고 이 과장은 다음 주 월요일에 검토한다.",
+    "result": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "김 대리는 금요일까지 견적서를 작성하고 이 과정은 다음 주 월요일에 검토한다."
+          }
+        }
+      ],
+      "created": 1790752023,
+      "model": "C:\\WorkingDev\\DemoSLLM\\models\\ggml-org\\gemma-4-E4B-it-Q4_0.gguf",
+      "system_fingerprint": "b11146-7fe450e19",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 24,
+        "prompt_tokens": 781,
+        "total_tokens": 805,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-dqUca471ZzILfosIeE6oXXFlG1XhJ9Dt",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 781,
+        "prompt_ms": 503.378,
+        "prompt_per_token_ms": 0.6445300896286812,
+        "prompt_per_second": 1551.5179447651667,
+        "predicted_n": 24,
+        "predicted_ms": 382.73,
+        "predicted_per_token_ms": 16.640434782608697,
+        "predicted_per_second": 60.09458364904763
+      },
+      "thinking_requested": false,
+      "reasoning_observed": false
+    }
+  },
+  "elapsed_seconds": 0.9465473000000202
+}

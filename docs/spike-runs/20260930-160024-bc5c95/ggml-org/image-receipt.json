@@ -1,0 +1,43 @@
+{
+  "id": "image-receipt",
+  "transport_ok": true,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "9000"
+        }
+      }
+    ],
+    "created": 1790751796,
+    "model": "C:\\WorkingDev\\DemoSLLM\\models\\ggml-org\\gemma-4-E4B-it-Q4_0.gguf",
+    "system_fingerprint": "b11146-7fe450e19",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 5,
+      "prompt_tokens": 234,
+      "total_tokens": 239,
+      "prompt_tokens_details": {
+        "cached_tokens": 1
+      }
+    },
+    "id": "chatcmpl-z5ufI9dWWggLaQGWfpO9UrOHyjPpOII1",
+    "timings": {
+      "cache_n": 1,
+      "prompt_n": 233,
+      "prompt_ms": 230.288,
+      "prompt_per_token_ms": 0.9883605150214593,
+      "prompt_per_second": 1011.7765580490516,
+      "predicted_n": 5,
+      "predicted_ms": 74.561,
+      "predicted_per_token_ms": 18.64025,
+      "predicted_per_second": 53.6473491503601
+    },
+    "thinking_requested": false,
+    "reasoning_observed": false
+  },
+  "elapsed_seconds": 0.35240019999946526
+}

@@ -1,0 +1,43 @@
+{
+  "id": "korean-05",
+  "transport_ok": true,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "다음은 문맥에 따라 몇 가지 자연스러운 번역 옵션입니다.\n\n**가장 일반적이고 정중한 번역:**\n\n* **첨부된 제안서를 금요일까지 검토해 주세요.** (가장 무난하고 비즈니스 상황에 적절함)\n\n**약간 더 격식 있는 표현:**\n\n* **첨부된 제안서를 금요일까지 검토해 주시기 바랍니다.** (격식을 갖춘 요청)\n* **금요일까지 첨부된 제안서 검토 부탁드립니다.** (간결하고 공손한 요청)\n\n**좀 더 캐주얼한 상황:**\n\n* **첨부된 제안서 금요일까지 한번 봐 주세요.** (친밀한 관계에서 사용 가능)\n\n어떤 상황에서 사용하실지에 따라 선택하시면 됩니다. 일반적으로는 **\"첨부된 제안서를 금요일까지 검토해 주세요.\"** 를 사용하시는 것이 가장 안전합니다."
+        }
+      }
+    ],
+    "created": 1790751684,
+    "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+    "system_fingerprint": "b11146-7fe450e19",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 199,
+      "prompt_tokens": 25,
+      "total_tokens": 224,
+      "prompt_tokens_details": {
+        "cached_tokens": 1
+      }
+    },
+    "id": "chatcmpl-CPBTdjXgjHIRk2cZ6igRcY1JAOD6Mh9X",
+    "timings": {
+      "cache_n": 1,
+      "prompt_n": 24,
+      "prompt_ms": 45.543,
+      "prompt_per_token_ms": 1.897625,
+      "prompt_per_second": 526.9745076081945,
+      "predicted_n": 199,
+      "predicted_ms": 3040.575,
+      "predicted_per_token_ms": 15.356439393939393,
+      "predicted_per_second": 65.11926198169755
+    },
+    "thinking_requested": false,
+    "reasoning_observed": false
+  },
+  "elapsed_seconds": 3.1020914999990055
+}

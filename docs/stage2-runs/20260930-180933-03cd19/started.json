@@ -1,0 +1,20 @@
+{
+  "inferencePid": 63480,
+  "embeddingPid": 63312,
+  "before": {
+    "UsedBytes": 3169914880,
+    "TotalBytes": 8585740288,
+    "Utilization": 48,
+    "Temperature": 40,
+    "PowerWatts": null
+  },
+  "loaded": {
+    "UsedBytes": 7718948864,
+    "TotalBytes": 8585740288,
+    "Utilization": 2,
+    "Temperature": 42,
+    "PowerWatts": null
+  },
+  "internet": "\uC5F0\uACB0 (Windows \uD310\uC815)",
+  "offlineTest": "\uC0AC\uC6A9\uC790 \uBA74\uC81C / \uB3D9\uC791 \uBBF8\uD655\uC778"
+}

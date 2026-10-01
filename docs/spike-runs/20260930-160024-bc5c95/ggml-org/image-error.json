@@ -1,0 +1,43 @@
+{
+  "id": "image-error",
+  "transport_ok": true,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "length",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "## 오류 메시지 분석 및 해결 방법 (한국어 설명)\n\n제공해주신 오류 메시지는 **\"DEMO APPLICATION ERROR\"**이며, 핵심적인 문제는 **\"Connection refused\"**입니다.\n\n### 1. 오류 메시지 분석\n\n| 영어 메시지 | 한국어 번역 | 의미 |\n| :--- | :--- | :--- |\n| **DEMO APPLICATION ERROR** | 데모 애플리케이션 오류 | 현재 실행하려는 데모 프로그램에서 오류가 발생했음을 알립니다. |\n| **Error: Connection refused** | 오류: 연결 거부됨 | 클라이언트(요청을 보내는 쪽)가 서버(요청을 받는 쪽)에게 접속을 시도했지만, 서버가 해당 연결 요청을 거부했다는 뜻입니다. |\n| **Target: 127.0.0.1:8080** | 대상: 127.0.0.1:8080 | 연결을 시도한 주소와 포트입니다. `127.0.0.1`은 **로컬 호스트(자기 자신)**를 의미하며, `8080`은 해당 서비스가 사용하도록 지정된 **포트 번호**입니다. |\n| **The local service is not running.** | 로컬 서비스가 실행되고 있지 않습니다. | **이것이 문제의 가장 직접적인 원인입니다.** 요청을 받아야 할 프로그램(서버)이 현재 켜져 있지 않거나(실행 중이 아니거나), 다른 이유로 작동을 멈춘 상태입니다. |\n| **Synthetic sample** | 합성 샘플 | (추가 정보) 이 오류가 발생한 맥락이나 테스트의 종류를 나타내는 것으로 보입니다. |\n\n---\n\n### 2. 오류의 원인 (Why?)\n\n**가장 핵심적인 원인은 \"연결하려는 대상(서버)이 현재 작동하고 있지 않기 때문\"입니다.**\n\n쉽게 비유하자면, 친구에게 전화를 걸려고 하는데, 그 친구가 전원을 완전히 꺼버린 상태와 같습니다. 전화를 걸면 '통화 중'이 아니라 '전원이 꺼져 있어 연결할 수 없음'과 같은 응답(Connection refused)을 받게 되는 것과 같습니다.\n\n**구체적인 원인:**\n\n1. **서버 프로그램 미실행:** 해당 애플리케이션(데모 서버)을"
+        }
+      }
+    ],
+    "created": 1790751805,
+    "model": "C:\\WorkingDev\\DemoSLLM\\models\\ggml-org\\gemma-4-E4B-it-Q4_0.gguf",
+    "system_fingerprint": "b11146-7fe450e19",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 512,
+      "prompt_tokens": 236,
+      "total_tokens": 748,
+      "prompt_tokens_details": {
+        "cached_tokens": 1
+      }
+    },
+    "id": "chatcmpl-xffM2hj55FItFiMQgabrE11g3pEdMmdf",
+    "timings": {
+      "cache_n": 1,
+      "prompt_n": 235,
+      "prompt_ms": 205.893,
+      "prompt_per_token_ms": 0.8761404255319148,
+      "prompt_per_second": 1141.3695463177476,
+      "predicted_n": 512,
+      "predicted_ms": 8291.808,
+      "predicted_per_token_ms": 16.2266301369863,
+      "predicted_per_second": 61.62709025582839
+    },
+    "thinking_requested": false,
+    "reasoning_observed": false
+  },
+  "elapsed_seconds": 8.536262600000555
+}

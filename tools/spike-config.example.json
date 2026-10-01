@@ -1,0 +1,38 @@
+{
+  "server": "../third_party/llama/llama-server.exe",
+  "release": "미확인: 실제 릴리스 태그로 교체",
+  "backend": "CUDA 12: 실제 사용한 빌드로 교체",
+  "gpu_index": 0,
+  "startup_timeout_seconds": 300,
+  "request_timeout_seconds": 180,
+  "enable_thinking": false,
+  "extra_args": [],
+  "candidates": [
+    {
+      "name": "google-qat",
+      "repository": "google/gemma-4-E4B-it-qat-q4_0-gguf",
+      "model": "../models/google-qat/model-Q4_0.gguf",
+      "mmproj": "../models/google-qat/mmproj.gguf",
+      "projector_provenance": "미확인: 저장소와 파일 이름 기록"
+    },
+    {
+      "name": "ggml-org",
+      "repository": "ggml-org/gemma-4-E4B-it-GGUF",
+      "model": "../models/ggml-org/model-Q4_0.gguf",
+      "mmproj": "../models/ggml-org/mmproj.gguf",
+      "projector_provenance": "미확인: 저장소와 파일 이름 기록"
+    }
+  ],
+  "embedding": {
+    "repository": "미확인: 실제 EmbeddingGemma GGUF 저장소 기록",
+    "model": "../models/embedding/model.gguf",
+    "extra_args": ["--embedding", "--pooling", "mean"]
+  },
+  "audio": [
+    {"file": "../assets/samples/audio/01.wav", "reference": "사용자가 정한 정답 문장 1"},
+    {"file": "../assets/samples/audio/02.wav", "reference": "사용자가 정한 정답 문장 2"},
+    {"file": "../assets/samples/audio/03.wav", "reference": "사용자가 정한 정답 문장 3"},
+    {"file": "../assets/samples/audio/04.wav", "reference": "사용자가 정한 정답 문장 4"},
+    {"file": "../assets/samples/audio/05.wav", "reference": "사용자가 정한 정답 문장 5"}
+  ]
+}

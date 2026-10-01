@@ -1,0 +1,27 @@
+{
+    "observedPeakBytes":  5180846080,
+    "serverPids":  [
+                       57060
+                   ],
+    "correctSources":  0,
+    "outcomes":  [
+                     {
+                         "scenario":  "A",
+                         "passed":  true,
+                         "sample":  "receipt",
+                         "answer":  "합계: 9,000\nJSON 형식 검증 완료 (1회 시도). 내용 정확성은 원본과 대조해야 한다.\n{\"kind\":\"receipt\",\"total\":9000,\"rows\":[{\"name\":\"Notebook\",\"quantity\":2,\"amount\":6000},{\"name\":\"Pen\",\"quantity\":3,\"amount\":3000}]}"
+                     }
+                 ],
+    "time":  "2026-09-30T21:17:38.9695106+09:00",
+    "parentPid":  67156,
+    "force":  false,
+    "sampling":  "GUI 1초 텔레메트리 읽기, 50ms 서비스 실측과 별개",
+    "offline":  "사용자 면제 / 미확인",
+    "error":  "CSV 파일명 입력란이 없다.",
+    "externalSocketsObservedMax":  0,
+    "remainingServers":  [
+
+                         ],
+    "visualGate":  "별도 이미지 검사 필요. render PNG는 실제 WPF 시각 트리이며 OS 화면 캡처가 아니다.",
+    "passed":  false
+}

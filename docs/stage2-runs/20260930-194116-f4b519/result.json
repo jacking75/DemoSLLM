@@ -1,0 +1,194 @@
+{
+  "options": {
+    "Server": "C:\\WorkingDev\\DemoSLLM\\third_party/llama-b11146-cuda12/llama-server.exe",
+    "Model": "C:\\WorkingDev\\DemoSLLM\\models/fallback/gemma-4-E2B-it-Q4_0.gguf",
+    "Projector": "C:\\WorkingDev\\DemoSLLM\\models/fallback/mmproj-gemma-4-E2B-it-BF16.gguf",
+    "Context": 4096,
+    "Cpu": false,
+    "Embedding": false
+  },
+  "before": {
+    "UsedBytes": 2170900480,
+    "TotalBytes": 8585740288,
+    "Utilization": 0,
+    "Temperature": 36,
+    "PowerWatts": null
+  },
+  "after": {
+    "UsedBytes": 2154123264,
+    "TotalBytes": 8585740288,
+    "Utilization": 0,
+    "Temperature": 43,
+    "PowerWatts": null
+  },
+  "peakBytes": 5389160448,
+  "peakGiB": 5.019046783447266,
+  "samples": 241,
+  "intervalMilliseconds": 50,
+  "externalSocketsObservedMax": 0,
+  "inferencePid": 65936,
+  "embeddingPid": 70512,
+  "serverAliveAfterStop": false,
+  "imagesPass": true,
+  "correctSources": 0,
+  "totalQuestions": 10,
+  "absentPass": false,
+  "chunkCount": 5,
+  "images": [
+    {
+      "name": "receipt",
+      "extraction": {
+        "Kind": "receipt",
+        "Total": 9000,
+        "Rows": [
+          {
+            "Name": "Notebook",
+            "Quantity": 2,
+            "Amount": 6000
+          },
+          {
+            "Name": "Pen",
+            "Quantity": 3,
+            "Amount": 3000
+          }
+        ],
+        "Raw": "{\u0022kind\u0022:\u0022receipt\u0022,\u0022total\u0022:9000,\u0022rows\u0022:[{\u0022name\u0022:\u0022Notebook\u0022,\u0022quantity\u0022:2,\u0022amount\u0022:6000},{\u0022name\u0022:\u0022Pen\u0022,\u0022quantity\u0022:3,\u0022amount\u0022:3000}]}",
+        "Attempts": 1
+      },
+      "stats": {
+        "TokensPerSecond": 110.75450893911948,
+        "FirstTokenSeconds": 0.329201,
+        "TotalTokens": 430,
+        "RateSource": "\uC11C\uBC84 \uC0DD\uC131",
+        "ProcessId": 65936,
+        "Context": 4096
+      },
+      "passed": true
+    },
+    {
+      "name": "error",
+      "answer": "**\uC624\uB958 \uBA54\uC2DC\uC9C0 \uBC0F \uCF54\uB4DC:**\n\n*   DEMO APPLICATION ERROR\n*   Error: Connection refused\n*   Target: 127.0.0.1:8080\n*   The local service is not running.\n*   Synthetic sample\n\n**\uAC00\uB2A5\uD55C \uC6D0\uC778 \uBC0F \uC548\uC804\uD55C \uD655\uC778 \uBC29\uBC95:**\n\n1.  **\uC11C\uBE44\uC2A4 \uBBF8\uC2E4\uD589 \uC5EC\uBD80 \uD655\uC778:** 127.0.0.1:8080 \uD3EC\uD2B8\uC5D0\uC11C \uD574\uB2F9 \uC560\uD50C\uB9AC\uCF00\uC774\uC158\uC774\uB098 \uC11C\uBE44\uC2A4\uAC00 \uC2E4\uC81C\uB85C \uC2E4\uD589 \uC911\uC778\uC9C0 \uD655\uC778\uD569\uB2C8\uB2E4. (\uC608: \uC11C\uBC84 \uD504\uB85C\uC138\uC2A4 \uC0C1\uD0DC \uD655\uC778)\n2.  **\uD3EC\uD2B8 \uBC0F \uC8FC\uC18C \uD655\uC778:** \uC560\uD50C\uB9AC\uCF00\uC774\uC158 \uC124\uC815\uC5D0\uC11C \uC11C\uBE44\uC2A4\uAC00 \uC2E4\uC81C\uB85C 8080 \uD3EC\uD2B8\uC640 127.0.0.1 \uC8FC\uC18C\uB85C \uBC14\uC778\uB529\uB418\uC5B4 \uC788\uB294\uC9C0 \uD655\uC778\uD569\uB2C8\uB2E4.",
+      "stats": {
+        "TokensPerSecond": 115.77964024950181,
+        "FirstTokenSeconds": 0.1721338,
+        "TotalTokens": 909,
+        "RateSource": "\uC11C\uBC84 \uC0DD\uC131",
+        "ProcessId": 65936,
+        "Context": 4096
+      },
+      "passed": true
+    },
+    {
+      "name": "table",
+      "extraction": {
+        "Kind": "table",
+        "Total": null,
+        "Rows": [
+          {
+            "Name": "DEMO SALES TABLE",
+            "Quantity": null,
+            "Amount": null
+          },
+          {
+            "Name": "Department",
+            "Quantity": null,
+            "Amount": null
+          },
+          {
+            "Name": "January",
+            "Quantity": null,
+            "Amount": null
+          },
+          {
+            "Name": "February",
+            "Quantity": null,
+            "Amount": null
+          },
+          {
+            "Name": "Sales",
+            "Quantity": 120,
+            "Amount": 150
+          },
+          {
+            "Name": "Support",
+            "Quantity": 80,
+            "Amount": 90
+          },
+          {
+            "Name": "Synthetic sample",
+            "Quantity": null,
+            "Amount": null
+          }
+        ],
+        "Raw": "{\u0022kind\u0022:\u0022table\u0022,\u0022total\u0022:null,\u0022rows\u0022:[{\u0022name\u0022:\u0022DEMO SALES TABLE\u0022,\u0022quantity\u0022:null,\u0022amount\u0022:null},{\u0022name\u0022:\u0022Department\u0022,\u0022quantity\u0022:null,\u0022amount\u0022:null},{\u0022name\u0022:\u0022January\u0022,\u0022quantity\u0022:null,\u0022amount\u0022:null},{\u0022name\u0022:\u0022February\u0022,\u0022quantity\u0022:null,\u0022amount\u0022:null},{\u0022name\u0022:\u0022Sales\u0022,\u0022quantity\u0022:120,\u0022amount\u0022:150},{\u0022name\u0022:\u0022Support\u0022,\u0022quantity\u0022:80,\u0022amount\u0022:90},{\u0022name\u0022:\u0022Synthetic sample\u0022,\u0022quantity\u0022:null,\u0022amount\u0022:null}]}",
+        "Attempts": 1
+      },
+      "stats": {
+        "TokensPerSecond": 115.94634090849426,
+        "FirstTokenSeconds": 0.1792042,
+        "TotalTokens": 1400,
+        "RateSource": "\uC11C\uBC84 \uC0DD\uC131",
+        "ProcessId": 65936,
+        "Context": 4096
+      },
+      "passed": true
+    }
+  ],
+  "questions": [
+    {
+      "question": "\uAD6D\uB0B4 \uCD9C\uC7A5\uC758 \uD558\uB8E8 \uC2DD\uBE44 \uD55C\uB3C4\uB294?",
+      "error": "\u0027\u0060\u0027 is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0.",
+      "sourceCorrect": false
+    },
+    {
+      "question": "\uBCF5\uADC0 \uD6C4 \uCD9C\uC7A5\uBE44 \uC815\uC0B0 \uC81C\uCD9C \uAE30\uD55C\uC740?",
+      "error": "\u0027\u0060\u0027 is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0.",
+      "sourceCorrect": false
+    },
+    {
+      "question": "300\uB9CC\uC6D0 \uC774\uC0C1 \uC7A5\uBE44 \uAD6C\uB9E4 \uC2DC \uBE44\uAD50 \uACAC\uC801\uC740 \uBA87 \uC5C5\uCCB4\uAC00 \uD544\uC694\uD55C\uAC00?",
+      "error": "\u0027\u0060\u0027 is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0.",
+      "sourceCorrect": false
+    },
+    {
+      "question": "\uBC95\uC778\uCE74\uB4DC\uB97C \uBD84\uC2E4\uD558\uBA74 \uC5B4\uB290 \uBD80\uC11C\uC5D0 \uC2E0\uACE0\uD558\uB294\uAC00?",
+      "error": "\u0027\u0060\u0027 is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0.",
+      "sourceCorrect": false
+    },
+    {
+      "question": "\uAD50\uC721\uC6A9 \uC13C\uC11C \uACF5\uAE09\uACC4\uC57D\uC758 \uB0A9\uD488 \uAE30\uD55C\uC740?",
+      "error": "\u0027\u0060\u0027 is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0.",
+      "sourceCorrect": false
+    },
+    {
+      "question": "\uACF5\uAE09\uACC4\uC57D \uB300\uAE08\uC740 \uAC80\uC218 \uC644\uB8CC \uD6C4 \uBA87 \uC77C \uC774\uB0B4 \uC9C0\uAE09\uD558\uB294\uAC00?",
+      "error": "\u0027\u0060\u0027 is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0.",
+      "sourceCorrect": false
+    },
+    {
+      "question": "\uD504\uB85C\uC81D\uD2B8 \uC0C8\uBD04 \uCC45\uC784\uC790\uB294 \uB204\uAD6C\uC778\uAC00?",
+      "error": "\u0027\u0060\u0027 is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0.",
+      "sourceCorrect": false
+    },
+    {
+      "question": "\uD504\uB85C\uC81D\uD2B8 \uC0C8\uBD04\uC758 \uC608\uC0B0 \uC0C1\uD55C\uC740?",
+      "error": "\u0027\u0060\u0027 is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0.",
+      "sourceCorrect": false
+    },
+    {
+      "question": "\uD1F4\uC9C1\uC790 \uACC4\uC815 \uBE44\uD65C\uC131\uD654 \uB9C8\uAC10 \uC2DC\uAC01\uC740?",
+      "error": "\u0027\u0060\u0027 is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0.",
+      "sourceCorrect": false
+    },
+    {
+      "question": "\uACE0\uAC1D \uC5F0\uB77D\uCC98 \uD30C\uC77C\uC744 \uC678\uBD80 \uACF5\uC720\uD558\uAE30 \uC804 \uC5B4\uB290 \uD300\uC758 \uC2B9\uC778\uC774 \uD544\uC694\uD55C\uAC00?",
+      "error": "\u0027\u0060\u0027 is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0.",
+      "sourceCorrect": false
+    }
+  ],
+  "limits": [],
+  "error": "System.Text.Json.JsonReaderException: \u0027\u0060\u0027 is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0.\r\n   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader\u0026 json, ExceptionResource resource, Byte nextByte, ReadOnlySpan\u00601 bytes)\r\n   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)\r\n   at System.Text.Json.Utf8JsonReader.ReadFirstToken(Byte first)\r\n   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()\r\n   at System.Text.Json.JsonDocument.Parse(ReadOnlySpan\u00601 utf8JsonSpan, JsonReaderOptions readerOptions, MetadataDb\u0026 database, StackRowStack\u0026 stack)\r\n   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory\u00601 utf8Json, JsonReaderOptions readerOptions, Byte[] extraRentedArrayPoolBytes, PooledByteBufferWriter extraPooledByteBufferWriter, Boolean allowDuplicateProperties)\r\n   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory\u00601 json, JsonDocumentOptions options)\r\n   at System.Text.Json.JsonDocument.Parse(String json, JsonDocumentOptions options)\r\n   at LocalMind.Features.DocumentVault.AnswerAsync(String query, CancellationToken ct) in C:\\WorkingDev\\DemoSLLM\\src\\Features\\DocumentVault.cs:line 118\r\n   at Stage2Tests.Run(String root, Boolean selfTest, Boolean primary) in C:\\WorkingDev\\DemoSLLM\\src\\Diagnostics\\Stage2Tests.cs:line 59",
+  "offlineTest": "\uC0AC\uC6A9\uC790 \uBA74\uC81C / \uB3D9\uC791 \uBBF8\uD655\uC778",
+  "serviceGate": false,
+  "guiGate": "\uBCC4\uB3C4 \uCE21\uC815 \uD544\uC694"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "korean-09",
+  "transport_ok": true,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "근거에 없으면 문서에서 찾지 못했습니다."
+        }
+      }
+    ],
+    "created": 1790750590,
+    "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+    "system_fingerprint": "b11146-7fe450e19",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 13,
+      "prompt_tokens": 52,
+      "total_tokens": 65,
+      "prompt_tokens_details": {
+        "cached_tokens": 7
+      }
+    },
+    "id": "chatcmpl-TztDc6cx4Pu5l1T06EitRhuFMMK3tVFG",
+    "timings": {
+      "cache_n": 7,
+      "prompt_n": 45,
+      "prompt_ms": 65.477,
+      "prompt_per_token_ms": 1.4550444444444446,
+      "prompt_per_second": 687.2642301876995,
+      "predicted_n": 13,
+      "predicted_ms": 178.066,
+      "predicted_per_token_ms": 14.838833333333334,
+      "predicted_per_second": 67.3907427583031
+    }
+  },
+  "elapsed_seconds": 0.2553477000001294
+}

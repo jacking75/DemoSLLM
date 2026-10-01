@@ -1,0 +1,58 @@
+{
+  "google-qat": {
+    "images": {
+      "receipt_total_9000": true,
+      "error_correct": false,
+      "table_correct": null,
+      "long_receipt_total_9000": null
+    },
+    "korean_usable_10": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "audio_usable_5": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "notes": "Codex가 원본 응답과 합성 이미지 정답을 대조했다. 영수증 최종 답변 9000은 정답이다. 오류 이미지는 content가 비어 있고 finish_reason=length로 최종 답변 실패이다. 한국어 02,07,10은 최종 답변이 비었고 04,05는 잘렸다. 전체 한국어 실사용 품질과 사용자 최종 평가는 미확인이다. 표·긴 입력·음성은 미측정이며 null을 유지한다."
+  },
+  "ggml-org": {
+    "images": {
+      "receipt_total_9000": null,
+      "error_correct": null,
+      "table_correct": null,
+      "long_receipt_total_9000": null
+    },
+    "korean_usable_10": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "audio_usable_5": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "notes": "선행 Google QAT의 총 VRAM 충돌로 실행 보류이다. 모든 동작·품질 평가는 미확인이다."
+  }
+}

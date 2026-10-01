@@ -1,0 +1,43 @@
+{
+  "id": "korean-03",
+  "transport_ok": true,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "**회의 요약:**\n\n* **김 대리:** 금요일까지 견적서 작성 완료\n* **이 과장:** 다음 주 월요일에 견적서 검토 예정"
+        }
+      }
+    ],
+    "created": 1790751676,
+    "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+    "system_fingerprint": "b11146-7fe450e19",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 39,
+      "total_tokens": 78,
+      "prompt_tokens_details": {
+        "cached_tokens": 1
+      }
+    },
+    "id": "chatcmpl-yAzANdSbyfqPamc48b5M7jIGwEpeQp3r",
+    "timings": {
+      "cache_n": 1,
+      "prompt_n": 38,
+      "prompt_ms": 49.759,
+      "prompt_per_token_ms": 1.3094473684210526,
+      "prompt_per_second": 763.6809421411202,
+      "predicted_n": 39,
+      "predicted_ms": 597.198,
+      "predicted_per_token_ms": 15.715736842105263,
+      "predicted_per_second": 63.63048771094344
+    },
+    "thinking_requested": false,
+    "reasoning_observed": false
+  },
+  "elapsed_seconds": 0.6657716999998229
+}

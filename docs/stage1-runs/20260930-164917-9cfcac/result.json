@@ -1,0 +1,38 @@
+{
+  "before": {
+    "UsedBytes": 2517319680,
+    "TotalBytes": 8585740288,
+    "Utilization": 1,
+    "Temperature": 40,
+    "PowerWatts": null
+  },
+  "during": {
+    "UsedBytes": 6987784192,
+    "TotalBytes": 8585740288,
+    "Utilization": 95,
+    "Temperature": 53,
+    "PowerWatts": null
+  },
+  "after": {
+    "UsedBytes": 2512076800,
+    "TotalBytes": 8585740288,
+    "Utilization": 1,
+    "Temperature": 45,
+    "PowerWatts": null
+  },
+  "content": "\uB85C\uCEEC AI\uB294 \uAC1C\uC778 \uC815\uBCF4\uAC00 \uC678\uBD80\uB85C \uC804\uC1A1\uB418\uC9C0 \uC54A\uACE0 \uAE30\uAE30 \uB0B4\uC5D0\uC11C \uCC98\uB9AC\uB418\uC5B4 \uB192\uC740 \uBCF4\uC548\uC131\uACFC \uC0AC\uC0DD\uD65C \uBCF4\uD638\uB97C \uC81C\uACF5\uD569\uB2C8\uB2E4.",
+  "stats": {
+    "TokensPerSecond": 70.5316440220905,
+    "FirstTokenSeconds": 0.1400374,
+    "TotalTokens": 91,
+    "RateSource": "\uC11C\uBC84 \uC0DD\uC131",
+    "ProcessId": 59736,
+    "Context": 8192
+  },
+  "externalSocketsObservedMax": 0,
+  "canceled": true,
+  "followup": "2",
+  "serverAliveAfterStop": false,
+  "offlineGate": "\uC5F0\uACB0 (Windows \uD310\uC815)",
+  "forcedExitGate": "\uBCC4\uB3C4 \uCE21\uC815 \uD544\uC694"
+}

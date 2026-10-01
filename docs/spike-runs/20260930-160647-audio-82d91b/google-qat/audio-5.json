@@ -1,0 +1,47 @@
+{
+  "id": "audio-5",
+  "transport_ok": true,
+  "response": {
+    "duration_seconds": 30.0,
+    "reference": "계약 해지 통지는 삼십 일 전에 서면으로 한다. 구매 금액 오백만 원 이상은 부서장 승인이 필요하다.",
+    "result": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "계약 해지 통지는 30일 전에 서면으로 한다. 구매 금액 500만원 이상은 부서장 승인이 필요하다."
+          }
+        }
+      ],
+      "created": 1790752015,
+      "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+      "system_fingerprint": "b11146-7fe450e19",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 781,
+        "total_tokens": 815,
+        "prompt_tokens_details": {
+          "cached_tokens": 1
+        }
+      },
+      "id": "chatcmpl-8K3WVQO4GnuiUgKBRUwxmqg7nYJogvs9",
+      "timings": {
+        "cache_n": 1,
+        "prompt_n": 780,
+        "prompt_ms": 307.769,
+        "prompt_per_token_ms": 0.394575641025641,
+        "prompt_per_second": 2534.368308699057,
+        "predicted_n": 34,
+        "predicted_ms": 513.573,
+        "predicted_per_token_ms": 15.562818181818182,
+        "predicted_per_second": 64.25571437750817
+      },
+      "thinking_requested": false,
+      "reasoning_observed": false
+    }
+  },
+  "elapsed_seconds": 0.9061290000008739
+}

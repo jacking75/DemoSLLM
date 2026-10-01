@@ -1,0 +1,43 @@
+{
+  "id": "korean-10",
+  "transport_ok": true,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "length",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "## 1847 곱하기 2963 계산\n\n**계산 과정 (세로셈 방식):**\n\n$$\\begin{array}{c} & 1847 \\\\ \\times & 2963 \\\\ \\hline \\end{array}$$\n\n1. **1847 $\\times$ 3 (일의 자리):**\n   $1847 \\times 3 = 5541$\n   $$\\begin{array}{c} & 1847 \\\\ \\times & 2963 \\\\ \\hline & 5541 \\end{array}$$\n\n2. **1847 $\\times$ 60 (십의 자리):**\n   $1847 \\times 60 = 110820$\n   $$\\begin{array}{c} & 1847 \\\\ \\times & 2963 \\\\ \\hline & 5541 \\\\ & 110820 \\end{array}$$\n\n3. **1847 $\\times$ 900 (백의 자리):**\n   $1847 \\times 900 = 1662300$\n   $$\\begin{array}{c} & 1847 \\\\ \\times & 2963 \\\\ \\hline & 5541 \\\\ & 110820 \\\\ & 1662300 \\end{array}$$\n\n4. **1847 $\\times$ 2000 (천의 자리):**\n   $1847 \\times 2000 = 3694000$\n   $$\\begin{array}{c} & 1847 \\\\ \\times & 2963 \\\\ \\hline & 5541 \\\\ & 110820 \\\\ & 1662300 \\\\ + & 3694000 \\\\ \\hline \\end{array}$$\n\n5. **덧셈:**\n   $5541 + 110820 + 1662300 + 3694000 = 5472661$\n\n**결과:**\n$$1847 \\times 2963 = 5,47"
+        }
+      }
+    ],
+    "created": 1790751796,
+    "model": "C:\\WorkingDev\\DemoSLLM\\models\\ggml-org\\gemma-4-E4B-it-Q4_0.gguf",
+    "system_fingerprint": "b11146-7fe450e19",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 512,
+      "prompt_tokens": 34,
+      "total_tokens": 546,
+      "prompt_tokens_details": {
+        "cached_tokens": 1
+      }
+    },
+    "id": "chatcmpl-ezuP0msi18FPJXzgIDoLC9t7Nz6PuTj9",
+    "timings": {
+      "cache_n": 1,
+      "prompt_n": 33,
+      "prompt_ms": 50.098,
+      "prompt_per_token_ms": 1.518121212121212,
+      "prompt_per_second": 658.7089304962275,
+      "predicted_n": 512,
+      "predicted_ms": 8251.293,
+      "predicted_per_token_ms": 16.147344422700588,
+      "predicted_per_second": 61.929687868313486
+    },
+    "thinking_requested": false,
+    "reasoning_observed": false
+  },
+  "elapsed_seconds": 8.308800299999348
+}

@@ -1,0 +1,43 @@
+{
+  "id": "korean-02",
+  "transport_ok": true,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "어떤 상황에서 누구에게 말씀하시는지에 따라 뉘앙스와 적절한 표현이 달라질 수 있습니다. 몇 가지 정중한 표현을 상황별로 제안해 드립니다.\n\n---\n\n### 1. 일반적인 비즈니스 상황 (가장 무난하고 정중함)\n\n* **\"자료는 오늘까지 전달해 주시면 감사하겠습니다.\"** (가장 표준적이고 정중함)\n* **\"혹시 오늘 중으로 자료를 보내주실 수 있을까요?\"** (부탁의 뉘앙스를 살리면서 정중함)\n* **\"자료 전달 기한이 오늘까지인데, 확인 부탁드립니다.\"** (기한을 상기시키면서 정중하게 요청)\n\n### 2. 상사 또는 격식을 갖춰야 하는 상대에게 (매우 공손함)\n\n* **\"자료 검토를 위해 오늘까지 받아야 할 것 같습니다. 혹시 오늘까지 전달해 주실 수 있을지 여쭙니다.\"** (상대방의 상황을 고려하며 정중하게 문의)\n* **\"바쁘시겠지만, 오늘 중으로 관련 자료를 보내주시면 업무에 큰 도움이 되겠습니다.\"** (배려를 담아 요청)\n\n### 3. 동료 또는 친밀하지만 격식을 지켜야 할 상대에게 (부드럽지만 명확하게)\n\n* **\"자료는 오늘까지 부탁드려요!\"** (친밀도에 따라 '부탁드려요' 사용)\n* **\"오늘까지 자료 받는 것으로 진행해도 괜찮을까요?\"** (상대방의 확인을 구하는 방식)\n\n---\n\n**💡 상황에 따라 추천:**\n\n* **가장 안전하고 추천하는 표현:** **\"자료는 오늘까지 전달해 주시면 감사하겠습니다.\"**\n\n어떤 분께 말씀하시는지 알려주시면, 그분께 가장 적절한 톤으로 다시 다듬어 드릴 수 있습니다! 😊"
+        }
+      }
+    ],
+    "created": 1790751775,
+    "model": "C:\\WorkingDev\\DemoSLLM\\models\\ggml-org\\gemma-4-E4B-it-Q4_0.gguf",
+    "system_fingerprint": "b11146-7fe450e19",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 417,
+      "prompt_tokens": 25,
+      "total_tokens": 442,
+      "prompt_tokens_details": {
+        "cached_tokens": 1
+      }
+    },
+    "id": "chatcmpl-fbWdKggJ2c800MFlXxn8APaWxhMYdCZS",
+    "timings": {
+      "cache_n": 1,
+      "prompt_n": 24,
+      "prompt_ms": 46.147,
+      "prompt_per_token_ms": 1.9227916666666667,
+      "prompt_per_second": 520.0771447764752,
+      "predicted_n": 417,
+      "predicted_ms": 6720.049,
+      "predicted_per_token_ms": 16.15396394230769,
+      "predicted_per_second": 61.90431051916437
+    },
+    "thinking_requested": false,
+    "reasoning_observed": false
+  },
+  "elapsed_seconds": 6.771010000000388
+}

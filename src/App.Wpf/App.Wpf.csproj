@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>true</SelfContained>
+    <PublishTrimmed>false</PublishTrimmed>
+    <PublishAot>false</PublishAot>
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <PublishSingleFile>true</PublishSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <IncludeSymbolsInSingleFile>false</IncludeSymbolsInSingleFile>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    <DebugType>embedded</DebugType>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <OutputPath>$(MSBuildProjectDirectory)\obj\app-output\$(Configuration)\</OutputPath>
+    <PublishDir>$(MSBuildProjectDirectory)\..\..\bin\</PublishDir>
+    <AssemblyName>LocalMindStudio</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Using Remove="System.Windows.Forms" />
+    <Using Remove="System.Drawing" />
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.2" />
+    <ProjectReference Include="../Core/Core.csproj" />
+    <ProjectReference Include="../Backend.LlamaServer/Backend.LlamaServer.csproj" />
+    <ProjectReference Include="../Telemetry/Telemetry.csproj" />
+    <ProjectReference Include="../Features/Features.csproj" />
+    <Compile Include="../App/ShellViewModel.cs" Link="ShellViewModel.cs" />
+  </ItemGroup>
+  <Target Name="ExcludeLooseDebugSymbolsFromPublish" BeforeTargets="_ComputeFilesToBundle">
+    <ItemGroup>
+      <ResolvedFileToPublish Remove="@(ResolvedFileToPublish)" Condition="'%(ResolvedFileToPublish.Extension)' == '.pdb'" />
+    </ItemGroup>
+  </Target>
+  <!-- 일반 Build도 루트 bin의 단일 EXE를 만든다. 중간 DLL은 obj에만 둔다. -->
+  <Target Name="PublishLocalMindAfterBuild" AfterTargets="Build"
+          Condition="'$(DesignTimeBuild)' != 'true' and '$(NoBuild)' != 'true' and '$(_IsPublishing)' != 'true' and '$(LocalMindPublishAfterBuild)' != 'false'">
+    <MSBuild Projects="$(MSBuildProjectFullPath)" Targets="Publish"
+             Properties="NoBuild=true;LocalMindPublishAfterBuild=false" BuildInParallel="false" />
+  </Target>
+</Project>

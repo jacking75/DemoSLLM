@@ -1,0 +1,43 @@
+{
+  "id": "korean-04",
+  "transport_ok": true,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Here are several ways to translate \"계약서는 내부 검토 후 전달하겠습니다,\" depending on the nuance you want to convey:\n\n**Most Common and Professional:**\n\n* **\"I will send the contract after an internal review.\"** (Direct and standard)\n* **\"We will forward the contract once we have completed our internal review.\"** (Slightly more formal)\n\n**Slightly More Formal/Business-like:**\n\n* **\"The contract will be provided after an internal review.\"** (Passive voice, very formal)\n* **\"We will transmit the contract following an internal review.\"** (Very formal, perhaps for legal correspondence)\n\n**More Casual (if you have an established rapport):**\n\n* **\"I'll get the contract over to you after I review it internally.\"**\n\n---\n\n**Which one should you choose?**\n\n* **For most business emails:** Use **\"I will send the contract after an internal review.\"**\n* **If the sending is coming from a department/team:** Use **\"We will forward the contract once we have completed our internal review.\"**"
+        }
+      }
+    ],
+    "created": 1790751780,
+    "model": "C:\\WorkingDev\\DemoSLLM\\models\\ggml-org\\gemma-4-E4B-it-Q4_0.gguf",
+    "system_fingerprint": "b11146-7fe450e19",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 234,
+      "prompt_tokens": 26,
+      "total_tokens": 260,
+      "prompt_tokens_details": {
+        "cached_tokens": 1
+      }
+    },
+    "id": "chatcmpl-L3heOUjRjpKCwNgPCR55Fjycwhiu9kpQ",
+    "timings": {
+      "cache_n": 1,
+      "prompt_n": 25,
+      "prompt_ms": 46.842,
+      "prompt_per_token_ms": 1.87368,
+      "prompt_per_second": 533.7090645147517,
+      "predicted_n": 234,
+      "predicted_ms": 3723.849,
+      "predicted_per_token_ms": 15.982184549356225,
+      "predicted_per_second": 62.56966917831522
+    },
+    "thinking_requested": false,
+    "reasoning_observed": false
+  },
+  "elapsed_seconds": 3.7931664000007004
+}

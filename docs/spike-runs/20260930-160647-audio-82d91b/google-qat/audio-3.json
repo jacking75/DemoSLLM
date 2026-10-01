@@ -1,0 +1,47 @@
+{
+  "id": "audio-3",
+  "transport_ok": true,
+  "response": {
+    "duration_seconds": 30.0,
+    "reference": "박 과장은 십월 오일까지 보고서를 제출하고 고객에게 검토 결과를 전달한다.",
+    "result": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "박 과장은 10월 5일까지 보고서를 제출하고 고객에게 검토 결과를 전달한다."
+          }
+        }
+      ],
+      "created": 1790752014,
+      "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+      "system_fingerprint": "b11146-7fe450e19",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 23,
+        "prompt_tokens": 781,
+        "total_tokens": 804,
+        "prompt_tokens_details": {
+          "cached_tokens": 1
+        }
+      },
+      "id": "chatcmpl-bZ4k27HijbTjs4FFIIf11qbwRiNl9QrO",
+      "timings": {
+        "cache_n": 1,
+        "prompt_n": 780,
+        "prompt_ms": 313.488,
+        "prompt_per_token_ms": 0.4019076923076923,
+        "prompt_per_second": 2488.133517072424,
+        "predicted_n": 23,
+        "predicted_ms": 348.159,
+        "predicted_per_token_ms": 15.82540909090909,
+        "predicted_per_second": 63.189519730927536
+      },
+      "thinking_requested": false,
+      "reasoning_observed": false
+    }
+  },
+  "elapsed_seconds": 0.746040300000459
+}

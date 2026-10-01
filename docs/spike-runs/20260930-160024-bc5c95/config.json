@@ -1,0 +1,40 @@
+{
+  "server": "C:\\WorkingDev\\DemoSLLM\\third_party\\llama-b11146-cuda12\\llama-server.exe",
+  "release": "v0.5.0 stable release linked binary b11146 (0.5.0-dev, commit 7fe450e19)",
+  "backend": "Windows x64 CUDA 12.4",
+  "gpu_index": 0,
+  "startup_timeout_seconds": 300,
+  "request_timeout_seconds": 180,
+  "enable_thinking": false,
+  "extra_args": [
+    "--no-webui",
+    "--image-max-tokens",
+    "1120"
+  ],
+  "candidates": [
+    {
+      "name": "google-qat",
+      "repository": "google/gemma-4-E4B-it-qat-q4_0-gguf@4b4a2c1d584be7264f87aac328a1bc739ce81b6c",
+      "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+      "mmproj": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B-it-mmproj.gguf",
+      "projector_provenance": "Same google repository and pinned revision; gemma-4-E4B-it-mmproj.gguf"
+    },
+    {
+      "name": "ggml-org",
+      "repository": "ggml-org/gemma-4-E4B-it-GGUF@b8093469224f83f5c38f691eb906c380e9e63114",
+      "model": "C:\\WorkingDev\\DemoSLLM\\models\\ggml-org\\gemma-4-E4B-it-Q4_0.gguf",
+      "mmproj": "C:\\WorkingDev\\DemoSLLM\\models\\ggml-org\\mmproj-gemma-4-E4B-it-BF16.gguf",
+      "projector_provenance": "Same ggml-org repository and pinned revision; BF16 projector"
+    }
+  ],
+  "embedding": {
+    "repository": "ggml-org/embeddinggemma-300M-GGUF@0f741b5a6585bd53aeb15cd1372c56f2a0f65e12",
+    "model": "C:\\WorkingDev\\DemoSLLM\\models\\embedding\\embeddinggemma-300M-Q8_0.gguf",
+    "extra_args": [
+      "--embedding",
+      "--pooling",
+      "mean"
+    ]
+  },
+  "audio": []
+}

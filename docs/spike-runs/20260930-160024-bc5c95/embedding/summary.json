@@ -1,0 +1,194 @@
+{
+  "repository": "ggml-org/embeddinggemma-300M-GGUF@0f741b5a6585bd53aeb15cd1372c56f2a0f65e12",
+  "device": "CPU (-ngl 0)",
+  "prompt_format": "EmbeddingGemma task prefixes",
+  "results": [
+    {
+      "query": "호텔 비용 한도가 얼마인가?",
+      "expected_index": 0,
+      "ranking": [
+        0,
+        2,
+        8,
+        9,
+        7,
+        1,
+        5,
+        3,
+        6,
+        4
+      ],
+      "top1_correct": true,
+      "top5_correct": true
+    },
+    {
+      "query": "휴가 신청은 며칠 전에 하는가?",
+      "expected_index": 1,
+      "ranking": [
+        1,
+        6,
+        3,
+        5,
+        2,
+        8,
+        9,
+        7,
+        0,
+        4
+      ],
+      "top1_correct": true,
+      "top5_correct": true
+    },
+    {
+      "query": "고액 구매 승인자는 누구인가?",
+      "expected_index": 2,
+      "ranking": [
+        2,
+        0,
+        9,
+        5,
+        4,
+        8,
+        1,
+        3,
+        7,
+        6
+      ],
+      "top1_correct": true,
+      "top5_correct": true
+    },
+    {
+      "query": "계약을 끝내려면 언제 알려야 하는가?",
+      "expected_index": 3,
+      "ranking": [
+        3,
+        1,
+        6,
+        8,
+        5,
+        4,
+        2,
+        9,
+        0,
+        7
+      ],
+      "top1_correct": true,
+      "top5_correct": true
+    },
+    {
+      "query": "정보 유출을 발견하면 누구에게 알려야 하는가?",
+      "expected_index": 4,
+      "ranking": [
+        4,
+        3,
+        5,
+        8,
+        6,
+        2,
+        9,
+        0,
+        1,
+        7
+      ],
+      "top1_correct": true,
+      "top5_correct": true
+    },
+    {
+      "query": "회의 공간을 어떻게 예약하는가?",
+      "expected_index": 5,
+      "ranking": [
+        5,
+        1,
+        9,
+        2,
+        0,
+        7,
+        8,
+        6,
+        3,
+        4
+      ],
+      "top1_correct": true,
+      "top5_correct": true
+    },
+    {
+      "query": "새 직원 교육 시기는 언제인가?",
+      "expected_index": 6,
+      "ranking": [
+        6,
+        1,
+        3,
+        7,
+        4,
+        2,
+        8,
+        5,
+        9,
+        0
+      ],
+      "top1_correct": true,
+      "top5_correct": true
+    },
+    {
+      "query": "집에서 일할 수 있는 횟수는?",
+      "expected_index": 7,
+      "ranking": [
+        7,
+        8,
+        0,
+        9,
+        1,
+        2,
+        6,
+        5,
+        3,
+        4
+      ],
+      "top1_correct": true,
+      "top5_correct": true
+    },
+    {
+      "query": "고객 질문에 답하는 기한은?",
+      "expected_index": 8,
+      "ranking": [
+        8,
+        3,
+        1,
+        7,
+        6,
+        5,
+        4,
+        0,
+        2,
+        9
+      ],
+      "top1_correct": true,
+      "top5_correct": true
+    },
+    {
+      "query": "출장 운임을 돌려받으려면 무엇을 제출하는가?",
+      "expected_index": 9,
+      "ranking": [
+        9,
+        0,
+        1,
+        5,
+        3,
+        2,
+        7,
+        4,
+        8,
+        6
+      ],
+      "top1_correct": true,
+      "top5_correct": true
+    }
+  ],
+  "sha256": "b5ce9d77a3fc4b3b39ccb5643c36777911cc4eb46a66962eadfa3f5f60490d63",
+  "sampled_peak_bytes": 2752229376,
+  "nvml_errors": [],
+  "top1": 10,
+  "top5": 10,
+  "count": 10,
+  "status": "측정 완료; 검색 품질 수용 기준은 사용자 결정 대기"
+}

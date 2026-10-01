@@ -1,0 +1,43 @@
+{
+  "id": "korean-06",
+  "transport_ok": true,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"담당자\": \"박 과장\",\n  \"기한\": \"10월 5일\"\n}\n```"
+        }
+      }
+    ],
+    "created": 1790751784,
+    "model": "C:\\WorkingDev\\DemoSLLM\\models\\ggml-org\\gemma-4-E4B-it-Q4_0.gguf",
+    "system_fingerprint": "b11146-7fe450e19",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 36,
+      "total_tokens": 70,
+      "prompt_tokens_details": {
+        "cached_tokens": 1
+      }
+    },
+    "id": "chatcmpl-uoSwIOZG3K0X3ooGfh1lD4Mah5hwZlEu",
+    "timings": {
+      "cache_n": 1,
+      "prompt_n": 35,
+      "prompt_ms": 47.976,
+      "prompt_per_token_ms": 1.370742857142857,
+      "prompt_per_second": 729.531432382858,
+      "predicted_n": 34,
+      "predicted_ms": 529.42,
+      "predicted_per_token_ms": 16.043030303030303,
+      "predicted_per_second": 62.3323637187866
+    },
+    "thinking_requested": false,
+    "reasoning_observed": false
+  },
+  "elapsed_seconds": 0.5867796000002272
+}

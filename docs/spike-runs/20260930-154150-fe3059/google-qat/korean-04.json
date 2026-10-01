@@ -1,0 +1,42 @@
+{
+  "id": "korean-04",
+  "transport_ok": true,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "length",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "상황과 뉘앙스에 따라 여러 가지 방식으로 표현할 수 있습니다.\n\n### 💼 가장 일반적이고 표준적인 표현 (Business Standard)\n\n**\"We will send the contract after internal review.\"**\n*(가장 직접적이고 많이 사용되는 표현입니다.)*\n\n### 🤝 격식 있고 정중한 표현 (Formal/Polite)\n\n**\"We will provide the agreement once it has undergone internal review.\"**\n*(‘내부 검토를",
+          "reasoning_content": "*   **Analyze the Korean sentence:** \"계약서는 내부 검토 후 전달하겠습니다.\" (Gye-yak-seo-neun nae-bu geom-to hu jeol-dal-ha-get-seum-ni-da.)\n    *   계약서 (Gye-yak-seo): Contract / Agreement.\n    *   내부 검토 (Nae-bu geom-to): Internal review / Internal review process.\n    *   후 (Hu): After.\n    *   전달하겠습니다 (Jeol-dal-ha-get-seum-ni-da): I will deliver / I will send / I will provide.\n    *   **Overall meaning:** The contract will be sent/delivered after internal review.\n\n*   **Identify the context:** This is a business/professional context (email, meeting response). The tone should be professional and polite.\n\n*   **Generate English translations:**\n    *   *Direct:* I will send the contract after internal review.\n    *   *More formal/business standard:* I will provide the contract following an internal review.\n    *   *Emphasizing the process (common in business):* We will share/send the contract once it has been internally reviewed.\n\n*   **Select the best options (offering variety):**\n    1.  Formal (standard business): \"We will send the contract after internal review.\"\n    2.  Slightly more formal (process-oriented): \"We will provide the agreement once it has undergone internal review.\"\n    3.  Concise (quick response): \"I will send the contract after internal approval.\" (Assuming review implies approval)\n\n*   **Final selection (Korean users often prefer the most natural business phrasing):** Provide the most common and versatile options. (Self-correction: Using \"we\" is often safer than \"I\" in Korean business contexts, even if one person handles it)."
+        }
+      }
+    ],
+    "created": 1790750569,
+    "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+    "system_fingerprint": "b11146-7fe450e19",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 512,
+      "prompt_tokens": 33,
+      "total_tokens": 545,
+      "prompt_tokens_details": {
+        "cached_tokens": 7
+      }
+    },
+    "id": "chatcmpl-GLCSxZe3U3rf6ln7G5LXwSryILMFwFa9",
+    "timings": {
+      "cache_n": 7,
+      "prompt_n": 26,
+      "prompt_ms": 58.375,
+      "prompt_per_token_ms": 2.2451923076923075,
+      "prompt_per_second": 445.3961456102784,
+      "predicted_n": 512,
+      "predicted_ms": 7476.229,
+      "predicted_per_token_ms": 14.630585127201567,
+      "predicted_per_second": 68.34996627310373
+    }
+  },
+  "elapsed_seconds": 7.5513128000002325
+}

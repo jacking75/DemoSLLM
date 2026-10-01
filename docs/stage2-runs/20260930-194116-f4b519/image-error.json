@@ -1,0 +1,13 @@
+{
+  "name": "error",
+  "answer": "**\uC624\uB958 \uBA54\uC2DC\uC9C0 \uBC0F \uCF54\uB4DC:**\n\n*   DEMO APPLICATION ERROR\n*   Error: Connection refused\n*   Target: 127.0.0.1:8080\n*   The local service is not running.\n*   Synthetic sample\n\n**\uAC00\uB2A5\uD55C \uC6D0\uC778 \uBC0F \uC548\uC804\uD55C \uD655\uC778 \uBC29\uBC95:**\n\n1.  **\uC11C\uBE44\uC2A4 \uBBF8\uC2E4\uD589 \uC5EC\uBD80 \uD655\uC778:** 127.0.0.1:8080 \uD3EC\uD2B8\uC5D0\uC11C \uD574\uB2F9 \uC560\uD50C\uB9AC\uCF00\uC774\uC158\uC774\uB098 \uC11C\uBE44\uC2A4\uAC00 \uC2E4\uC81C\uB85C \uC2E4\uD589 \uC911\uC778\uC9C0 \uD655\uC778\uD569\uB2C8\uB2E4. (\uC608: \uC11C\uBC84 \uD504\uB85C\uC138\uC2A4 \uC0C1\uD0DC \uD655\uC778)\n2.  **\uD3EC\uD2B8 \uBC0F \uC8FC\uC18C \uD655\uC778:** \uC560\uD50C\uB9AC\uCF00\uC774\uC158 \uC124\uC815\uC5D0\uC11C \uC11C\uBE44\uC2A4\uAC00 \uC2E4\uC81C\uB85C 8080 \uD3EC\uD2B8\uC640 127.0.0.1 \uC8FC\uC18C\uB85C \uBC14\uC778\uB529\uB418\uC5B4 \uC788\uB294\uC9C0 \uD655\uC778\uD569\uB2C8\uB2E4.",
+  "stats": {
+    "TokensPerSecond": 115.77964024950181,
+    "FirstTokenSeconds": 0.1721338,
+    "TotalTokens": 909,
+    "RateSource": "\uC11C\uBC84 \uC0DD\uC131",
+    "ProcessId": 65936,
+    "Context": 4096
+  },
+  "passed": true
+}

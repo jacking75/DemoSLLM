@@ -1,0 +1,43 @@
+{
+  "id": "korean-05",
+  "transport_ok": true,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "다음은 문맥에 따라 선택할 수 있는 몇 가지 자연스러운 한국어 번역입니다.\n\n**가장 일반적이고 비즈니스적인 번역:**\n\n* **첨부된 제안서를 금요일까지 검토해 주세요.** (가장 직역에 가깝고 격식 있음)\n* **첨부된 제안서를 금요일까지 검토 부탁드립니다.** (가장 정중하고 흔하게 사용됨)\n\n**조금 더 부드럽고 친근한 뉘앙스:**\n\n* **첨부된 제안서 검토는 금요일까지 부탁드립니다.**\n* **금요일까지 첨부된 제안서 확인해 주시기 바랍니다.**\n\n**상황에 따른 팁:**\n\n* **'Review'의 의미가 단순 확인이라면:** \"확인해 주세요\"를 사용할 수 있습니다.\n* **'Proposal'이 매우 중요하고 공식적이라면:** \"제안서\"라는 단어를 사용하고 격식을 갖추는 것이 좋습니다.\n\n어떤 뉘앙스를 원하시나요? 상황에 맞춰 가장 적절한 것을 고르시면 됩니다!"
+        }
+      }
+    ],
+    "created": 1790751783,
+    "model": "C:\\WorkingDev\\DemoSLLM\\models\\ggml-org\\gemma-4-E4B-it-Q4_0.gguf",
+    "system_fingerprint": "b11146-7fe450e19",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 235,
+      "prompt_tokens": 25,
+      "total_tokens": 260,
+      "prompt_tokens_details": {
+        "cached_tokens": 1
+      }
+    },
+    "id": "chatcmpl-17v7JTcqAA3nnhXxWIWByqGDNysKptZq",
+    "timings": {
+      "cache_n": 1,
+      "prompt_n": 24,
+      "prompt_ms": 45.69,
+      "prompt_per_token_ms": 1.9037499999999998,
+      "prompt_per_second": 525.279054497702,
+      "predicted_n": 235,
+      "predicted_ms": 3733.032,
+      "predicted_per_token_ms": 15.953128205128206,
+      "predicted_per_second": 62.683630893064944
+    },
+    "thinking_requested": false,
+    "reasoning_observed": false
+  },
+  "elapsed_seconds": 3.7907051000001957
+}

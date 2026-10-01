@@ -1,0 +1,42 @@
+{
+  "id": "korean-08",
+  "transport_ok": true,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "12만원이다.",
+          "reasoning_content": "*   **Analyze the Request:** The user is asking me to answer based *only* on provided evidence.\n*   **Identify the Evidence (근거):** \"출장 숙박비 상한은 12만원이다.\" (The ceiling for business trip lodging expenses is 120,000 KRW.)\n*   **Identify the Question (질문):** \"상한은 얼마인가?\" (What is the ceiling/limit?)\n*   **Extract the Answer:** The evidence explicitly states the ceiling is 120,000 KRW.\n*   **Formulate the Response:** State the answer clearly based on the source text.\n\n*   **Final Answer Generation (Korean):** 12만원이다."
+        }
+      }
+    ],
+    "created": 1790750589,
+    "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+    "system_fingerprint": "b11146-7fe450e19",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 168,
+      "prompt_tokens": 49,
+      "total_tokens": 217,
+      "prompt_tokens_details": {
+        "cached_tokens": 7
+      }
+    },
+    "id": "chatcmpl-baqlCkHYIR2RlBSIqqeIofq5wyQeBMKK",
+    "timings": {
+      "cache_n": 7,
+      "prompt_n": 42,
+      "prompt_ms": 64.897,
+      "prompt_per_token_ms": 1.5451666666666668,
+      "prompt_per_second": 647.1793765505339,
+      "predicted_n": 168,
+      "predicted_ms": 2430.01,
+      "predicted_per_token_ms": 14.550958083832336,
+      "predicted_per_second": 68.72399702058838
+    }
+  },
+  "elapsed_seconds": 2.515494500001296
+}

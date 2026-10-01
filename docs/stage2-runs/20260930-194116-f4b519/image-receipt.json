@@ -1,0 +1,30 @@
+{
+  "name": "receipt",
+  "extraction": {
+    "Kind": "receipt",
+    "Total": 9000,
+    "Rows": [
+      {
+        "Name": "Notebook",
+        "Quantity": 2,
+        "Amount": 6000
+      },
+      {
+        "Name": "Pen",
+        "Quantity": 3,
+        "Amount": 3000
+      }
+    ],
+    "Raw": "{\u0022kind\u0022:\u0022receipt\u0022,\u0022total\u0022:9000,\u0022rows\u0022:[{\u0022name\u0022:\u0022Notebook\u0022,\u0022quantity\u0022:2,\u0022amount\u0022:6000},{\u0022name\u0022:\u0022Pen\u0022,\u0022quantity\u0022:3,\u0022amount\u0022:3000}]}",
+    "Attempts": 1
+  },
+  "stats": {
+    "TokensPerSecond": 110.75450893911948,
+    "FirstTokenSeconds": 0.329201,
+    "TotalTokens": 430,
+    "RateSource": "\uC11C\uBC84 \uC0DD\uC131",
+    "ProcessId": 65936,
+    "Context": 4096
+  },
+  "passed": true
+}

@@ -1,0 +1,43 @@
+{
+  "id": "korean-07",
+  "transport_ok": true,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "다음과 같이 고칠 수 있습니다.\n\n**\"내일 뵐게요. 자료를 검토해 주시면 됩니다.\"**\n\n**수정된 부분에 대한 설명:**\n\n1. **\"뵈요\" $\\rightarrow$ \"뵐게요\"**:\n   * **\"뵙다\"**의 올바른 활용형은 **\"뵙다\"**의 미래 또는 의지 표현인 **\"뵐게요\"**입니다.\n   * \"뵈요\"는 비표준적인 표현입니다.\n2. **\"됨니다\" $\\rightarrow$ \"됩니다\"**:\n   * **\"되다\"**의 올바른 종결어미는 **\"됩니다\"**입니다. (\"됩니다\"는 격식 있는 상황에서 사용되며, \"돼요\"와 같은 구어체 표현 대신 사용했습니다.)"
+        }
+      }
+    ],
+    "created": 1790751787,
+    "model": "C:\\WorkingDev\\DemoSLLM\\models\\ggml-org\\gemma-4-E4B-it-Q4_0.gguf",
+    "system_fingerprint": "b11146-7fe450e19",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 172,
+      "prompt_tokens": 34,
+      "total_tokens": 206,
+      "prompt_tokens_details": {
+        "cached_tokens": 1
+      }
+    },
+    "id": "chatcmpl-n089yJXqqNRiYbZ8oc1Om9IS8iVsl4d8",
+    "timings": {
+      "cache_n": 1,
+      "prompt_n": 33,
+      "prompt_ms": 48.018,
+      "prompt_per_token_ms": 1.4550909090909092,
+      "prompt_per_second": 687.2422841434461,
+      "predicted_n": 172,
+      "predicted_ms": 2708.255,
+      "predicted_per_token_ms": 15.837748538011697,
+      "predicted_per_second": 63.14028774986107
+    },
+    "thinking_requested": false,
+    "reasoning_observed": false
+  },
+  "elapsed_seconds": 2.7634247000005416
+}

@@ -1,0 +1,19 @@
+{
+  "time": "2026-09-30T23:55:40.1552999+09:00",
+  "runtime": "10.0.11",
+  "formats": [
+    {
+      "format": "Text",
+      "readable": true
+    },
+    {
+      "format": "UnicodeText",
+      "readable": true
+    },
+    {
+      "format": "EnterpriseDataProtectionId",
+      "readable": true
+    }
+  ],
+  "readOnly": true
+}

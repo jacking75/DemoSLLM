@@ -1,0 +1,58 @@
+{
+    "parentPid":  46592,
+    "serverPid":  32384,
+    "force":  false,
+    "answer":  "로컬 AI는 사내 데이터의 보안과 기밀성을 유지하면서 개인화되고 빠르며 외부 통신 없이 문서를 처리할 수 있는 장점이 있습니다.",
+    "status":  "생성 완료이다. 결과를 검토해야 한다.",
+    "metrics":  "속도: 109.2 tok/s\n출처: 서버 생성\n첫 토큰: 0.144초\n누적 처리: 103\nVRAM: 5.397 GiB\nGPU: 89%\n온도: 53℃\n전력: 미확인W\n인터넷: 연결 (Windows 판정)",
+    "sockets":  "외부 연결 0건",
+    "sameSampleSource":  {
+                             "time":  "2026-09-30T17:21:30.0313232+09:00",
+                             "gpu":  {
+                                         "UsedBytes":  5795258368,
+                                         "TotalBytes":  8585740288,
+                                         "Utilization":  89,
+                                         "Temperature":  53,
+                                         "PowerWatts":  null
+                                     },
+                             "stats":  {
+                                           "TokensPerSecond":  109.21004732435384,
+                                           "FirstTokenSeconds":  0.1435902,
+                                           "TotalTokens":  103,
+                                           "RateSource":  "서버 생성",
+                                           "ProcessId":  32384,
+                                           "Context":  4096
+                                       },
+                             "metrics":  "속도: 109.2 tok/s\n출처: 서버 생성\n첫 토큰: 0.144초\n누적 처리: 103\nVRAM: 5.397 GiB\nGPU: 89%\n온도: 53℃\n전력: 미확인W\n인터넷: 연결 (Windows 판정)",
+                             "sockets":  "외부 연결 0건"
+                         },
+    "tcp":  [
+                {
+                    "LocalAddress":  "127.0.0.1",
+                    "RemoteAddress":  "0.0.0.0",
+                    "State":  2
+                },
+                {
+                    "LocalAddress":  "127.0.0.1",
+                    "RemoteAddress":  "127.0.0.1",
+                    "State":  7
+                }
+            ],
+    "udp":  [
+
+            ],
+    "physicalAdapters":  [
+                             {
+                                 "Name":  "이더넷",
+                                 "Status":  "Up"
+                             }
+                         ],
+    "memoryUsedMiB":  {
+                          "before":  "2311",
+                          "during":  "5285",
+                          "after":  "2413"
+                      },
+    "serverRemaining":  false,
+    "offlineGate":  "미확인: 인터넷 단절 조작 안 함",
+    "time":  "2026-09-30T17:21:36.0225279+09:00"
+}

@@ -1,0 +1,244 @@
+{
+  "candidate": "ggml-org",
+  "source": "Microsoft Heami Desktop local synthetic speech; padded with silence to 30 seconds; not user recordings",
+  "real_user_speech_quality": "미확인",
+  "results": [
+    {
+      "id": "audio-1",
+      "transport_ok": true,
+      "response": {
+        "duration_seconds": 30.0,
+        "reference": "김 대리는 금요일까지 견적서를 작성하고 이 과장은 다음 주 월요일에 검토한다.",
+        "result": {
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "message": {
+                "role": "assistant",
+                "content": "김 대리는 금요일까지 견적서를 작성하고 이 과정은 다음 주 월요일에 검토한다."
+              }
+            }
+          ],
+          "created": 1790752023,
+          "model": "C:\\WorkingDev\\DemoSLLM\\models\\ggml-org\\gemma-4-E4B-it-Q4_0.gguf",
+          "system_fingerprint": "b11146-7fe450e19",
+          "object": "chat.completion",
+          "usage": {
+            "completion_tokens": 24,
+            "prompt_tokens": 781,
+            "total_tokens": 805,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            }
+          },
+          "id": "chatcmpl-dqUca471ZzILfosIeE6oXXFlG1XhJ9Dt",
+          "timings": {
+            "cache_n": 0,
+            "prompt_n": 781,
+            "prompt_ms": 503.378,
+            "prompt_per_token_ms": 0.6445300896286812,
+            "prompt_per_second": 1551.5179447651667,
+            "predicted_n": 24,
+            "predicted_ms": 382.73,
+            "predicted_per_token_ms": 16.640434782608697,
+            "predicted_per_second": 60.09458364904763
+          },
+          "thinking_requested": false,
+          "reasoning_observed": false
+        }
+      },
+      "elapsed_seconds": 0.9465473000000202
+    },
+    {
+      "id": "audio-2",
+      "transport_ok": true,
+      "response": {
+        "duration_seconds": 30.0,
+        "reference": "출장 숙박비는 하루 십이만 원까지 지원하고 교통비 정산에는 영수증이 필요하다.",
+        "result": {
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "message": {
+                "role": "assistant",
+                "content": "출장 숙박비는 하루 12만 원까지 지원하고 교통비 정산에는 영수증이 필요하다.\n"
+              }
+            }
+          ],
+          "created": 1790752023,
+          "model": "C:\\WorkingDev\\DemoSLLM\\models\\ggml-org\\gemma-4-E4B-it-Q4_0.gguf",
+          "system_fingerprint": "b11146-7fe450e19",
+          "object": "chat.completion",
+          "usage": {
+            "completion_tokens": 29,
+            "prompt_tokens": 781,
+            "total_tokens": 810,
+            "prompt_tokens_details": {
+              "cached_tokens": 1
+            }
+          },
+          "id": "chatcmpl-K1csAAUUEh89fYLhVmompABOkOW1Xmu8",
+          "timings": {
+            "cache_n": 1,
+            "prompt_n": 780,
+            "prompt_ms": 316.318,
+            "prompt_per_token_ms": 0.4055358974358974,
+            "prompt_per_second": 2465.8729506382815,
+            "predicted_n": 29,
+            "predicted_ms": 461.154,
+            "predicted_per_token_ms": 16.469785714285713,
+            "predicted_per_second": 60.71724413102781
+          },
+          "thinking_requested": false,
+          "reasoning_observed": false
+        }
+      },
+      "elapsed_seconds": 0.8633604999995441
+    },
+    {
+      "id": "audio-3",
+      "transport_ok": true,
+      "response": {
+        "duration_seconds": 30.0,
+        "reference": "박 과장은 십월 오일까지 보고서를 제출하고 고객에게 검토 결과를 전달한다.",
+        "result": {
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "message": {
+                "role": "assistant",
+                "content": "박 과장은 10월 5일까지 보고서를 제출하고 고객에게 검토 결과를 전달한다."
+              }
+            }
+          ],
+          "created": 1790752024,
+          "model": "C:\\WorkingDev\\DemoSLLM\\models\\ggml-org\\gemma-4-E4B-it-Q4_0.gguf",
+          "system_fingerprint": "b11146-7fe450e19",
+          "object": "chat.completion",
+          "usage": {
+            "completion_tokens": 23,
+            "prompt_tokens": 781,
+            "total_tokens": 804,
+            "prompt_tokens_details": {
+              "cached_tokens": 1
+            }
+          },
+          "id": "chatcmpl-9IB8uynfSKpDM9gfW8yWTuWJLiFVBu16",
+          "timings": {
+            "cache_n": 1,
+            "prompt_n": 780,
+            "prompt_ms": 314.858,
+            "prompt_per_token_ms": 0.40366410256410257,
+            "prompt_per_second": 2477.3072305610785,
+            "predicted_n": 23,
+            "predicted_ms": 359.269,
+            "predicted_per_token_ms": 16.33040909090909,
+            "predicted_per_second": 61.235453100601504
+          },
+          "thinking_requested": false,
+          "reasoning_observed": false
+        }
+      },
+      "elapsed_seconds": 0.7663998000007268
+    },
+    {
+      "id": "audio-4",
+      "transport_ok": true,
+      "response": {
+        "duration_seconds": 30.0,
+        "reference": "다음 회의는 화요일 오후 세 시에 시작한다. 참석자는 영업팀과 지원팀 담당자이다.",
+        "result": {
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "message": {
+                "role": "assistant",
+                "content": "다음 회의는 화요일 오후 3시에 시작한다. 참석자는 영업팀과 지원팀 담당자이다."
+              }
+            }
+          ],
+          "created": 1790752025,
+          "model": "C:\\WorkingDev\\DemoSLLM\\models\\ggml-org\\gemma-4-E4B-it-Q4_0.gguf",
+          "system_fingerprint": "b11146-7fe450e19",
+          "object": "chat.completion",
+          "usage": {
+            "completion_tokens": 25,
+            "prompt_tokens": 781,
+            "total_tokens": 806,
+            "prompt_tokens_details": {
+              "cached_tokens": 1
+            }
+          },
+          "id": "chatcmpl-eXbjVvH5HhIwLOlFe7ECoCTvSxGYr7yV",
+          "timings": {
+            "cache_n": 1,
+            "prompt_n": 780,
+            "prompt_ms": 309.198,
+            "prompt_per_token_ms": 0.3964076923076923,
+            "prompt_per_second": 2522.6553858692487,
+            "predicted_n": 25,
+            "predicted_ms": 393.985,
+            "predicted_per_token_ms": 16.41604166666667,
+            "predicted_per_second": 60.91602472175336
+          },
+          "thinking_requested": false,
+          "reasoning_observed": false
+        }
+      },
+      "elapsed_seconds": 0.7948852999998053
+    },
+    {
+      "id": "audio-5",
+      "transport_ok": true,
+      "response": {
+        "duration_seconds": 30.0,
+        "reference": "계약 해지 통지는 삼십 일 전에 서면으로 한다. 구매 금액 오백만 원 이상은 부서장 승인이 필요하다.",
+        "result": {
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "message": {
+                "role": "assistant",
+                "content": "계약 해지 통지는 30일 전에 서면으로 한다. 구매 금액 500만원 이상은 부서장 승인이 필요하다.\n"
+              }
+            }
+          ],
+          "created": 1790752026,
+          "model": "C:\\WorkingDev\\DemoSLLM\\models\\ggml-org\\gemma-4-E4B-it-Q4_0.gguf",
+          "system_fingerprint": "b11146-7fe450e19",
+          "object": "chat.completion",
+          "usage": {
+            "completion_tokens": 35,
+            "prompt_tokens": 781,
+            "total_tokens": 816,
+            "prompt_tokens_details": {
+              "cached_tokens": 1
+            }
+          },
+          "id": "chatcmpl-MsOJhrJCuc9DGmPvdK2fYCLn120dyZws",
+          "timings": {
+            "cache_n": 1,
+            "prompt_n": 780,
+            "prompt_ms": 310.667,
+            "prompt_per_token_ms": 0.3982910256410256,
+            "prompt_per_second": 2510.726919820902,
+            "predicted_n": 35,
+            "predicted_ms": 557.868,
+            "predicted_per_token_ms": 16.40788235294118,
+            "predicted_per_second": 60.94631704991144
+          },
+          "thinking_requested": false,
+          "reasoning_observed": false
+        }
+      },
+      "elapsed_seconds": 0.9426621999991767
+    }
+  ],
+  "sampled_peak_bytes": 7224995840,
+  "nvml_errors": []
+}

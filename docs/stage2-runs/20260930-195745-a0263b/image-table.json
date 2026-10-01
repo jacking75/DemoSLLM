@@ -1,0 +1,55 @@
+{
+  "name": "table",
+  "extraction": {
+    "Kind": "table",
+    "Total": null,
+    "Rows": [
+      {
+        "Name": "DEMO SALES TABLE",
+        "Quantity": null,
+        "Amount": null
+      },
+      {
+        "Name": "Department",
+        "Quantity": null,
+        "Amount": null
+      },
+      {
+        "Name": "January",
+        "Quantity": null,
+        "Amount": null
+      },
+      {
+        "Name": "February",
+        "Quantity": null,
+        "Amount": null
+      },
+      {
+        "Name": "Sales",
+        "Quantity": 120,
+        "Amount": 150
+      },
+      {
+        "Name": "Support",
+        "Quantity": 80,
+        "Amount": 90
+      },
+      {
+        "Name": "Synthetic sample",
+        "Quantity": null,
+        "Amount": null
+      }
+    ],
+    "Raw": "{\u0022kind\u0022:\u0022table\u0022,\u0022total\u0022:null,\u0022rows\u0022:[{\u0022name\u0022:\u0022DEMO SALES TABLE\u0022,\u0022quantity\u0022:null,\u0022amount\u0022:null},{\u0022name\u0022:\u0022Department\u0022,\u0022quantity\u0022:null,\u0022amount\u0022:null},{\u0022name\u0022:\u0022January\u0022,\u0022quantity\u0022:null,\u0022amount\u0022:null},{\u0022name\u0022:\u0022February\u0022,\u0022quantity\u0022:null,\u0022amount\u0022:null},{\u0022name\u0022:\u0022Sales\u0022,\u0022quantity\u0022:120,\u0022amount\u0022:150},{\u0022name\u0022:\u0022Support\u0022,\u0022quantity\u0022:80,\u0022amount\u0022:90},{\u0022name\u0022:\u0022Synthetic sample\u0022,\u0022quantity\u0022:null,\u0022amount\u0022:null}]}",
+    "Attempts": 1
+  },
+  "stats": {
+    "TokensPerSecond": 114.0128210644065,
+    "FirstTokenSeconds": 0.192313,
+    "TotalTokens": 1484,
+    "RateSource": "\uC11C\uBC84 \uC0DD\uC131",
+    "ProcessId": 27568,
+    "Context": 4096
+  },
+  "passed": true
+}

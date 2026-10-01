@@ -1,0 +1,58 @@
+{
+  "google-qat": {
+    "images": {
+      "receipt_total_9000": true,
+      "error_correct": false,
+      "table_correct": true,
+      "long_receipt_total_9000": true
+    },
+    "korean_usable_10": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "audio_usable_5": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "notes": "Codex 원본 응답 검토이며 사용자 품질 승인 아님. 영수증 9000·표·긴 입력 합계 정확. 오류 원인은 정확하지만 512 출력 토큰으로 조치 답변이 잘려 완결성 false. 한국어 01·10 잘림, 01 근거 없는 절대적 표현, 07 직접 맞춤법 교정 부적합, 06 코드 펜스 JSON. 한국어 사용자 수용·실제 사용자 음성은 null(미확인)을 유지함. 사고 출력 0/57은 이번 요청의 관측이지 영구 보장 아님. 상세 docs/spike-round2.md."
+  },
+  "ggml-org": {
+    "images": {
+      "receipt_total_9000": true,
+      "error_correct": false,
+      "table_correct": true,
+      "long_receipt_total_9000": true
+    },
+    "korean_usable_10": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "audio_usable_5": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "notes": "Codex 원본 응답 검토이며 사용자 품질 승인 아님. 영수증 9000·표·긴 입력 합계 정확. 오류 원인은 정확하지만 512 출력 토큰으로 조치 답변이 잘려 완결성 false. 한국어 01·10 잘림, 01 근거 없는 절대적 표현, 07 직접 맞춤법 교정 부적합, 06 코드 펜스 JSON. 한국어 사용자 수용·실제 사용자 음성은 null(미확인)을 유지함. tool-1.0-09에서 비활성화 요청에도 사고 출력 관측(1/57). 상세 docs/spike-round2.md."
+  }
+}

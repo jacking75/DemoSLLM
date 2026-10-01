@@ -1,0 +1,42 @@
+{
+  "id": "image-receipt",
+  "transport_ok": true,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "9000",
+          "reasoning_content": "Here's a thinking process to arrive at the answer:\n\n1.  **Analyze the Request:** The user has provided an image/text of a receipt (a \"DEMO RECEIPT\") and asked a question in Korean: \"영수증의 합계 금액을 숫자로 답하라.\" (Answer the total amount of the receipt in numbers.)\n\n2.  **Examine the Receipt Content:**\n    *   Item 1: Notebook (2 x 3000 = 6000)\n    *   Item 2: Pen (3 x 1000 = 3000)\n    *   Total Line: TOTAL: 9000 KRW\n    *   Note: Synthetic sample - no real customer data\n\n3.  **Identify the Target Information:** The question asks for the *total amount* (합계 금액).\n\n4.  **Extract the Value:** The receipt explicitly states the total is 9000 KRW.\n\n5.  **Format the Output:** The request asks for the answer \"in numbers\" (숫자로 답하라).\n\n6.  **Final Answer Formulation:** 9000. (Since the currency is KRW, the number itself is 9000.)"
+        }
+      }
+    ],
+    "created": 1790750602,
+    "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+    "system_fingerprint": "b11146-7fe450e19",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 275,
+      "prompt_tokens": 241,
+      "total_tokens": 516,
+      "prompt_tokens_details": {
+        "cached_tokens": 7
+      }
+    },
+    "id": "chatcmpl-FKhtj2ARWMRpFittUrFxgs8qW0RK1xIO",
+    "timings": {
+      "cache_n": 7,
+      "prompt_n": 234,
+      "prompt_ms": 302.215,
+      "prompt_per_token_ms": 1.291517094017094,
+      "prompt_per_second": 774.2832089737439,
+      "predicted_n": 275,
+      "predicted_ms": 4032.679,
+      "predicted_per_token_ms": 14.717806569343066,
+      "predicted_per_second": 67.94490709525851
+    }
+  },
+  "elapsed_seconds": 4.379175300000497
+}

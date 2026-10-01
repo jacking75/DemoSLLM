@@ -1,0 +1,47 @@
+{
+  "id": "audio-2",
+  "transport_ok": true,
+  "response": {
+    "duration_seconds": 30.0,
+    "reference": "출장 숙박비는 하루 십이만 원까지 지원하고 교통비 정산에는 영수증이 필요하다.",
+    "result": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "출장 숙박비는 하루 12만 원까지 지원하고 교통비 정산에는 영수증이 필요하다."
+          }
+        }
+      ],
+      "created": 1790752013,
+      "model": "C:\\WorkingDev\\DemoSLLM\\models\\google-qat\\gemma-4-E4B_q4_0-it.gguf",
+      "system_fingerprint": "b11146-7fe450e19",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 28,
+        "prompt_tokens": 781,
+        "total_tokens": 809,
+        "prompt_tokens_details": {
+          "cached_tokens": 1
+        }
+      },
+      "id": "chatcmpl-3rP0L6zvM7cDO1rZ5FwOIge7K8oowcZt",
+      "timings": {
+        "cache_n": 1,
+        "prompt_n": 780,
+        "prompt_ms": 316.242,
+        "prompt_per_token_ms": 0.4054384615384616,
+        "prompt_per_second": 2466.4655548598857,
+        "predicted_n": 28,
+        "predicted_ms": 428.397,
+        "predicted_per_token_ms": 15.866555555555555,
+        "predicted_per_second": 63.025651440136144
+      },
+      "thinking_requested": false,
+      "reasoning_observed": false
+    }
+  },
+  "elapsed_seconds": 0.8338760999995429
+}

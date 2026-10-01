@@ -1,0 +1,62 @@
+{
+  "id": "tool-0.2-10",
+  "transport_ok": true,
+  "response": {
+    "expected_name": "read_text_file",
+    "expected_arguments": {
+      "name": "demo-9.txt"
+    },
+    "result": {
+      "choices": [
+        {
+          "finish_reason": "tool_calls",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": [
+              {
+                "type": "function",
+                "function": {
+                  "name": "read_text_file",
+                  "arguments": "{\"name\":\"demo-9.txt\"}"
+                },
+                "id": "0wnQcXYXkCP8w7f74d4hHHL2xNq3gIiy"
+              }
+            ]
+          }
+        }
+      ],
+      "created": 1790751826,
+      "model": "C:\\WorkingDev\\DemoSLLM\\models\\ggml-org\\gemma-4-E4B-it-Q4_0.gguf",
+      "system_fingerprint": "b11146-7fe450e19",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 21,
+        "prompt_tokens": 247,
+        "total_tokens": 268,
+        "prompt_tokens_details": {
+          "cached_tokens": 219
+        }
+      },
+      "id": "chatcmpl-ohLNMk6iqkg8dfAOQr1uKEMXV5k3Tk1K",
+      "timings": {
+        "cache_n": 219,
+        "prompt_n": 28,
+        "prompt_ms": 72.76,
+        "prompt_per_token_ms": 2.5985714285714288,
+        "prompt_per_second": 384.82682792743265,
+        "predicted_n": 21,
+        "predicted_ms": 337.546,
+        "predicted_per_token_ms": 16.877299999999998,
+        "predicted_per_second": 59.25118354239126
+      },
+      "thinking_requested": false,
+      "reasoning_observed": false
+    },
+    "exact_call_success": true,
+    "content_present": false,
+    "content_leak_suspected": false
+  },
+  "elapsed_seconds": 0.4210168999998132
+}
