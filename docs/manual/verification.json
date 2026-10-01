@@ -1,0 +1,41 @@
+{
+    "checkedAt":  "2026-10-01T12:23:06.7108998+09:00",
+    "sourceCommit":  "3f1292073cd78e09f6f7de31571cf989090cef28",
+    "pdfPages":  24,
+    "pdfBookmarks":  24,
+    "pdfTocLinks":  22,
+    "pdfVisualReview":  "all 24 latest rendered pages reviewed; no clipping or missing Korean glyphs observed",
+    "screenshotsCaptured":  21,
+    "htmlScreenshotPlacements":  15,
+    "htmlSelfContained":  true,
+    "browserChecksPassed":  15,
+    "browserChecks":  [
+                          "chapter inventory",
+                          "embedded screenshots loaded",
+                          "no external screenshot dependencies",
+                          "chapter search",
+                          "matching navigation filter",
+                          "empty search guidance",
+                          "search reset",
+                          "table of contents navigation",
+                          "image enlargement",
+                          "Escape closes enlargement",
+                          "mobile overflow boundary",
+                          "print includes filtered chapters",
+                          "offline search in fresh page",
+                          "offline screenshot enlargement",
+                          "no JavaScript page errors"
+                      ],
+    "modelDownloadSizeBytes":  4161905792,
+    "htmlSha256":  "84683a0631cc734f72fdb82de482cbd246ce727507d904e2448792323a4e66ee",
+    "pdfSha256":  "1fdb1dd5428d4bf4b216511613f2be5125e33c9e888d74dd3e193f8373b824cb",
+    "notPerformed":  [
+                         "actual model downloads",
+                         "new model inference",
+                         "external-app text selection",
+                         "complete clipboard-format restoration",
+                         "end-user walkthrough on another PC",
+                         "double-click file protocol via browser automation"
+                     ],
+    "screenshotProvenance":  "capture-manifest.json under images; replay responses and synthetic popup inputs identified in captions"
+}

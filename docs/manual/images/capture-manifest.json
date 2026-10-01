@@ -1,0 +1,147 @@
+﻿[
+    {
+        "file":  "01-home.png",
+        "kind":  "current-ui-server-stopped",
+        "capturedAt":  "2026-10-01T12:07:07.4942057+09:00",
+        "width":  1320,
+        "height":  900
+    },
+    {
+        "file":  "18-chat-example.png",
+        "kind":  "current-ui-example-input-not-sent",
+        "capturedAt":  "2026-10-01T12:07:08.2674520+09:00",
+        "width":  1320,
+        "height":  900
+    },
+    {
+        "file":  "16-model-controls.png",
+        "kind":  "current-ui-model-panel-scrolled",
+        "capturedAt":  "2026-10-01T12:07:09.0176078+09:00",
+        "width":  1320,
+        "height":  900
+    },
+    {
+        "file":  "02-download-confirm.png",
+        "kind":  "current-ui-confirmation-only-no-download",
+        "capturedAt":  "2026-10-01T12:03:00.5249229+09:00"
+    },
+    {
+        "file":  "03-image-receipt.png",
+        "kind":  "current-ui-synthetic-sample-no-inference",
+        "capturedAt":  "2026-10-01T12:07:10.6379368+09:00",
+        "width":  1320,
+        "height":  900
+    },
+    {
+        "file":  "04-document-vault.png",
+        "kind":  "current-ui-no-indexing-or-inference",
+        "capturedAt":  "2026-10-01T12:07:11.7171093+09:00",
+        "width":  1320,
+        "height":  900
+    },
+    {
+        "file":  "05-shortcut.png",
+        "kind":  "current-ui-help",
+        "capturedAt":  "2026-10-01T12:07:12.7868506+09:00",
+        "width":  1320,
+        "height":  900
+    },
+    {
+        "file":  "06-shortcut-help.png",
+        "kind":  "current-ui-help-popup-empty-selection",
+        "capturedAt":  "2026-10-01T12:07:13.7858511+09:00",
+        "width":  620,
+        "height":  590
+    },
+    {
+        "file":  "07-ai-limits.png",
+        "kind":  "current-ui-no-inference",
+        "capturedAt":  "2026-10-01T12:07:14.9300733+09:00",
+        "width":  1320,
+        "height":  900
+    },
+    {
+        "file":  "08-replay-setup.png",
+        "kind":  "current-ui-saved-replay",
+        "capturedAt":  "2026-10-01T12:07:16.3533324+09:00",
+        "width":  1320,
+        "height":  900
+    },
+    {
+        "file":  "09-replay-receipt.png",
+        "kind":  "current-ui-saved-replay",
+        "capturedAt":  "2026-10-01T12:07:17.7552985+09:00",
+        "width":  1320,
+        "height":  900
+    },
+    {
+        "file":  "10-replay-error.png",
+        "kind":  "current-ui-saved-replay",
+        "capturedAt":  "2026-10-01T12:07:19.1820964+09:00",
+        "width":  1320,
+        "height":  900
+    },
+    {
+        "file":  "10-replay-error-detail.png",
+        "kind":  "current-ui-saved-replay-result-scrolled",
+        "capturedAt":  "2026-10-01T12:07:19.8034505+09:00",
+        "width":  1320,
+        "height":  900
+    },
+    {
+        "file":  "11-replay-vault.png",
+        "kind":  "current-ui-saved-replay",
+        "capturedAt":  "2026-10-01T12:07:21.2170655+09:00",
+        "width":  1320,
+        "height":  900
+    },
+    {
+        "file":  "11-replay-vault-detail.png",
+        "kind":  "current-ui-saved-replay-result-scrolled",
+        "capturedAt":  "2026-10-01T12:07:21.8166166+09:00",
+        "width":  1320,
+        "height":  900
+    },
+    {
+        "file":  "12-replay-shortcut.png",
+        "kind":  "current-ui-saved-replay",
+        "capturedAt":  "2026-10-01T12:07:23.2418292+09:00",
+        "width":  1320,
+        "height":  900
+    },
+    {
+        "file":  "13-replay-review.png",
+        "kind":  "current-ui-saved-replay",
+        "capturedAt":  "2026-10-01T12:07:24.6172863+09:00",
+        "width":  1320,
+        "height":  900
+    },
+    {
+        "file":  "14-replay-limits.png",
+        "kind":  "current-ui-saved-replay",
+        "capturedAt":  "2026-10-01T12:07:25.9875963+09:00",
+        "width":  1320,
+        "height":  900
+    },
+    {
+        "file":  "14-replay-limits-detail.png",
+        "kind":  "current-ui-saved-replay-result-scrolled",
+        "capturedAt":  "2026-10-01T12:07:26.6032274+09:00",
+        "width":  1320,
+        "height":  900
+    },
+    {
+        "file":  "15-replay-ideas.png",
+        "kind":  "current-ui-saved-replay",
+        "capturedAt":  "2026-10-01T12:07:28.0022395+09:00",
+        "width":  1320,
+        "height":  900
+    },
+    {
+        "file":  "17-shortcut-sample.png",
+        "kind":  "current-ui-fixture-direct-synthetic-input-no-external-selection-or-inference",
+        "capturedAt":  "2026-10-01T12:07:45.0225006+09:00",
+        "width":  620,
+        "height":  590
+    }
+]
